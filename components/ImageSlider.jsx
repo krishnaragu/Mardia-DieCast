@@ -17,7 +17,7 @@ const ImageSlider = ({ images }) => {
     }, []);
 
     return (
-        <div className="w-full h-auto pt-24 relative" id='home'>
+        <div className="w-full h-auto lg:h-[50%] pt-16 lg:pt-16 relative" id='home'>
             {images.map((image, index) => (
                 <Image
                     height={591}
@@ -25,7 +25,7 @@ const ImageSlider = ({ images }) => {
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}
-                    className={` object-cover w-full h-full ${index === currentIndex ? 'block' : 'hidden'}`}
+                    className={` object-cover w-full h-full  ${index === currentIndex ? 'block' : 'hidden'}`}
                 />
             ))}
         </div>

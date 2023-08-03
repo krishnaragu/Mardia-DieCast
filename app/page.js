@@ -5,6 +5,8 @@ import Clientele from "@/components/Clientele";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ImageSlider from "@/components/ImageSlider";
+import Infrastructure from "@/components/Infrastructure";
+import Introduction from "@/components/Introduction";
 import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
 import QualityAssurance from "@/components/QualityAssurance";
@@ -21,11 +23,13 @@ export default function Home() {
     <div className="scroll-smooth">
       <Navbar />
       <ImageSlider images={images} />
+      <Introduction />
       <About />
       <Clientele />
-      <QualityAssurance />
-      <WhyChooseUs />
       <Products />
+      <QualityAssurance />
+      <Infrastructure />
+      <WhyChooseUs />
       <Contact />
       <Footer />
     </div>

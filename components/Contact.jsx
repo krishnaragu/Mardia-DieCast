@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <>
             <div className='bg-black flex flex-col  p-4  text-white' id='contact'>
-                <h1 className='text-2xl font-bold m-3 text-center'>Contact Us</h1>
+                <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'>CONTACT <span className='text-white'>US</span></h1>
                 <form className='flex flex-col' method='post' id='contact'>
                     <div id='detail-name' className='flex flex-col sm:flex-none sm:m-3'>
                         <label htmlFor="name" className=' align-middle'>Name</label>
@@ -23,10 +23,11 @@ const Contact = () => {
                         <input type="submit" value="Send" />
                     </div>
                 </form>
+                <Image src={'/../public/assets/midban.png'} alt={'Quality Assurance'} width={1920} height={500} />
 
             </div>
             <div id="google-maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.860855670388!2d77.552493!3d12.990058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7513b43261668ff!2sMardia+Engineering!5e0!3m2!1sen!2sin!4v1499517519837" frameBorder="0" className=' w-full h-auto border-0'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.860855670388!2d77.552493!3d12.990058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7513b43261668ff!2sMardia+Engineering!5e0!3m2!1sen!2sin!4v1499517519837" className=' w-full h-auto border-0'></iframe>
             </div>
 
             <div className='bg-black flex flex-col sm:grid sm:grid-cols-3 p-4 -4 items-center text-white'>
@@ -37,6 +38,7 @@ const Contact = () => {
                     </figure>
                     <h1 className=''>Visit Us</h1>
                     <div className=''>
+                        <a href='http://www.mardiaindia.com/'>http://www.mardiaindia.com</a>
                         <p className=''>Mardia Engineering, # 19/1, KSSIDC Industrial Estate, Rajajinagar, Bangalore- 560044.</p>
                         <p className='p-2'>Phone: +91-80-23509638 /39</p>
                     </div>

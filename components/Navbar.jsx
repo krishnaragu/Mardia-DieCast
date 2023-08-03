@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed z-10 w-full flex justify-between pt-3 bg-white scroll-smooth">
+        <nav className="fixed z-10 w-full flex justify-between pt-3 bg-black scroll-smooth">
             <div>
                 <a href="#">
                     <Image
@@ -24,15 +24,15 @@ const Navbar = () => {
                     />
                 </a>
             </div>
-            <div className="m-2  bg-white lg:hidden" onClick={handleNav}>
+            <div className="m-2  bg-black lg:hidden" onClick={handleNav}>
                 {navOpen ? (
-                    <AiOutlineClose size={35} />
+                    <AiOutlineClose size={35} color='#ffff' />
                 ) : (
-                    <AiOutlineMenu size={35} />
+                    <AiOutlineMenu size={35} color='#ffff' />
                 )}
             </div>
             {navOpen && (
-                <div className="absolute  top-24 right-0 mt-2 w-full bg-black p-3 z-50 shadow-lg">
+                <div className="absolute  top-16 right-0 mt-2 w-full bg-black p-3 z-50 shadow-lg">
                     <ul className="flex flex-col space-y-2 ">
                         <li className='p-5' onClick={handleNav}>
                             <a href="#home" className="text-white">Home</a>
@@ -57,22 +57,22 @@ const Navbar = () => {
             )}
             <section id="links" className='hidden lg:block'>
                 <ul className="flex">
-                    <li className='p-5 hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5 hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#home" className="">Home</a>
                     </li>
-                    <li className='p-5  hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5  hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#about" className="">About</a>
                     </li>
-                    <li className='p-5  hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5  hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#clientele" className="">Clientele</a>
                     </li>
-                    <li className='p-5  hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5  hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#quality" className="">Quality Assurance</a>
                     </li>
-                    <li className='p-5  hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5  hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#products" className="">Products</a>
                     </li>
-                    <li className='p-5  hover:bg-lime-300 hover:text-white hover:underline hover:rounded-xl'>
+                    <li className='p-5  hover:bg-red-500 hover: text-white hover:underline hover:rounded-xl'>
                         <a href="#contact" className="">Contact</a>
                     </li>
                 </ul>

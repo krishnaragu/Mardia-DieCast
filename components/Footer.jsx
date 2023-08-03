@@ -7,7 +7,7 @@ const Footer = () => {
             <figure className='w-fit h-auto  rounded-full  m-1 p-1'>
                 <Image src="/../public/assets/me_logo.png" alt='footer' width={50} height={50} />
             </figure>
-            <div id="socials" className='flex justify-evenly m-1 p-2'>
+            {/* <div id="socials" className='flex justify-evenly m-1 p-2'>
                 <a href="https://www.facebook.com/" className='m-1 p-2'>
                     <Image src="/../public/assets/icons/facebook.png" alt='facebook' width={50} height={50} />
                 </a>
@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://plus.google.com/" className='m-1 p-2'>
                     <Image src="/../public/assets/icons/google-plus.png" alt='google-plus' width={50} height={50} />
                 </a>
-            </div>
+            </div> */}
 
             <p className=' font-mono'>“ THE LIGHT WITHIN US BOWS TO THE LIGHT WITHIN YOU. ”</p>
             <p className='text-sm'>©2017 MARDIA ENGINEERING. ALL RIGHTS RESERVED</p>

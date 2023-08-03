@@ -4,7 +4,7 @@ import React from 'react'
 const WhyChooseUs = () => {
     return (
         <div className='bg-black flex flex-col p-5 items-center  text-white'>
-            <h1 className='text-2xl font-bold'>Why Choose Us?</h1>
+            <h1 className='text-2xl font-bold lg:text-5xl text-red-700'>WHY <span className=' text-white'>US?</span></h1>
             <section id='iso' className='flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 justify-center p-10'>
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/../public/assets/why-choose-us/iso.png" alt='iso' width={100} height={100} />
