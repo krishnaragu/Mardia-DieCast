@@ -112,11 +112,11 @@ const Clientele = () => {
         }
     ]
     return (
-        <div id='clientele' className=' bg-black text-white' >
+        <div id='clientele' className=' bg-black text-white ' >
             <div className='flex flex-col items-center'>
                 <h1 className='text-3xl m-10 font-bold'>OUR CLIENTELE</h1>
                 <div id="container">
-                    <ul className='grid'>
+                    <ul className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:p-10'>
                         {clients.map((client => {
                             return (
                                 <li key={client.client} className=' bg-lime-400 m-4 p-1 hover:shadow-xl hover:shadow-lime-400'>
