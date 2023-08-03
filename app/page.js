@@ -18,10 +18,7 @@ export default function Home() {
     // Add more image paths here as needed
   ];
   return (
-    <div className=" scroll-smooth">
-      {/* <div id="image" className=" w-full flex justify-center mt-4">
-        <Image src={logo} alt="ME_LOGO" height={70} width={70}></Image>
-      </div> */}
+    <div className="scroll-smooth">
       <Navbar />
       <ImageSlider images={images} />
       <About />

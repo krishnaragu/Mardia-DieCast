@@ -20,12 +20,12 @@ const ImageSlider = ({ images }) => {
         <div className="w-full h-auto pt-24 relative" id='home'>
             {images.map((image, index) => (
                 <Image
-                    height={50}
-                    width={100}
+                    height={591}
+                    width={1351}
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}
-                    className={`object-contain w-full h-full ${index === currentIndex ? 'block' : 'hidden'}`}
+                    className={` object-cover w-full h-full ${index === currentIndex ? 'block' : 'hidden'}`}
                 />
             ))}
         </div>
