@@ -22,7 +22,6 @@ const ImageSlider = ({ images }) => {
                 <Image
                     height={591}
                     width={1351}
-                    loading='eager'
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}

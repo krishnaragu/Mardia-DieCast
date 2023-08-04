@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='flex flex-col items-center text-center p-2 bg-black text-white'>
             <figure className='w-fit h-auto  rounded-full  m-1 p-1'>
-                <Image src="/../public/assets/me_logo.png" alt='footer' width={50} height={50} />
+                <Image src="/assets/me_logo.png" alt='footer' width={50} height={50} />
             </figure>
             {/* <div id="socials" className='flex justify-evenly m-1 p-2'>
                 <a href="https://www.facebook.com/" className='m-1 p-2'>
