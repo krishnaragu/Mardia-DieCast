@@ -64,29 +64,29 @@ const Navbar = () => {
             )}
             <section id="links" className='hidden lg:block'>
                 <ul className="flex">
-                    <li className='p-5 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="home" spy={true} smooth={true} className="">Home</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="about" spy={true} smooth={true} className="">About</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="clientele" spy={true} smooth={true} className="">Clientele</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="products" spy={true} smooth={true} className="">Products</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="quality" spy={true} smooth={true} className="">Quality Assurance</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="infra" spy={true} smooth={true} className="">Infrastructure</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="whyus" spy={true} smooth={true} className="">Why us?</Link>
                     </li>
 
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li onClick={handleNav} className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="contact" spy={true} smooth={true} className="">Contact</Link>
                     </li>
                 </ul>
