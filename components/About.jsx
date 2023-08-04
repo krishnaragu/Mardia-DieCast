@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import whoweare from '../public/assets/whoweare.png';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 const About = () => {
@@ -45,7 +44,7 @@ const About = () => {
                     className="flex justify-center"
                     variants={fadeInUp}
                 >
-                    <Image src={whoweare} alt="Whoweare" height={500} width={500} />
+                    <Image src='/assets/whoweare.png' alt="Whoweare" height={500} width={500} />
                 </motion.div>
             </div>
         </motion.div  >

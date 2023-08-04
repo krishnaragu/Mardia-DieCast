@@ -23,7 +23,7 @@ const Contact = () => {
                         <input type="submit" value="Send" />
                     </div>
                 </form>
-                <Image src={'/../public/assets/midban.png'} alt={'Quality Assurance'} width={1920} height={500} />
+                <Image src={'/assets/midban.png'} alt={'Quality Assurance'} width={1920} height={500} />
 
             </div>
             <div id="google-maps">
@@ -34,10 +34,10 @@ const Contact = () => {
 
                 <div id="address" className='flex flex-col pt-4 sm:pt-24 lg:pt-16 text-center items-center'>
                     <figure className='bg-white border  rounded-full'>
-                        <Image src="/../public/assets/icons/earth-globe.png" alt='earth' width={50} height={50} />
+                        <Image src="/assets/icons/earth-globe.png" alt='earth' width={50} height={50} />
                     </figure>
                     <h1 className=''>Visit Us</h1>
-                    <div className=''>
+                    <div >
                         <a href='http://www.mardiaindia.com/'>http://www.mardiaindia.com</a>
                         <p className=''>Mardia Engineering, # 19/1, KSSIDC Industrial Estate, Rajajinagar, Bangalore- 560044.</p>
                         <p className='p-2'>Phone: +91-80-23509638 /39</p>
@@ -46,7 +46,7 @@ const Contact = () => {
 
                 <div id="mail" className='flex flex-col pt-4 text-center items-center'>
                     <figure className='bg-white border rounded-full'>
-                        <Image src="/../public/assets/icons/mail.png" className='p-1' alt='mail' width={50} height={50} />
+                        <Image src="/assets/icons/mail.png" className='p-1' alt='mail' width={50} height={50} />
                     </figure>
                     <h1 className='pt-2'>Mail Us</h1>
                     <p>ankit@mardiaindia.com</p>
@@ -55,7 +55,7 @@ const Contact = () => {
 
                 <div id="call" className='flex flex-col pt-4 text-center items-center'>
                     <figure className='bg-white border rounded-full'>
-                        <Image src="/../public/assets/icons/cell-phone.png" className='p-1' alt='phone' width={50} height={50} />
+                        <Image src="/assets/icons/cell-phone.png" className='p-1' alt='phone' width={50} height={50} />
                     </figure>
                     <h1 className='pt-2'>Call Us</h1>
                     <p>Mobile: (+91) 9448497791</p>

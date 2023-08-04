@@ -19,7 +19,7 @@ const Navbar = () => {
                         width={150}
                         height={150}
                         className="w-[80%] pl-5 pb-2 sm:w-full"
-                        src="/../public/assets/me_logo.png"
+                        src="/assets/me_logo.png"
                         alt="Logo"
                     />
                 </Link>

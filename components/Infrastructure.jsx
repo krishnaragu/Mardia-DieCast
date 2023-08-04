@@ -33,18 +33,18 @@ const Infrastructure = () => {
                 variants={fadeInUp}
             >
                 <figure className='lg:flex md:grid md:grid-cols-2 justify-between'>
-                    <Image src={'/../public/assets/infra/1.jpg'} alt='pic 1' className='p-10' width={921} height={693} />
-                    <Image src={'/../public/assets/infra/5.jpg'} alt='pic 2' className='p-10 lg:w-[50%]' width={444} height={733} />
+                    <Image src={'/assets/infra/1.jpg'} alt='pic 1' className='p-10' width={921} height={693} />
+                    <Image src={'/assets/infra/5.jpg'} alt='pic 2' className='p-10 lg:w-[50%]' width={444} height={733} />
                 </figure>
                 <figure className='lg:flex md:grid md:grid-cols-3 justify-between'>
                     <div className=''>
-                        <Image src={'/../public/assets/infra/3.jpg'} alt='pic 3' className='p-10 ' width={364} height={604} />
+                        <Image src={'/assets/infra/3.jpg'} alt='pic 3' className='p-10 ' width={364} height={604} />
                     </div>
                     <div className='lg:pt-40'>
-                        <Image src={'/../public/assets/infra/4.jpg'} alt='pic 4' className='p-10' width={372} height={581} />
+                        <Image src={'/assets/infra/4.jpg'} alt='pic 4' className='p-10' width={372} height={581} />
                     </div>
                     <figure className='lg:pt-80'>
-                        <Image src={'/../public/assets/infra/2.jpg'} alt='pic 5' className='p-10' width={327} height={537} />
+                        <Image src={'/assets/infra/2.jpg'} alt='pic 5' className='p-10' width={327} height={537} />
                     </figure>
                 </figure>
             </motion.div>
