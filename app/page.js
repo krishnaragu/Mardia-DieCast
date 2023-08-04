@@ -13,10 +13,10 @@ import QualityAssurance from "@/components/QualityAssurance";
 import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   const images = [
-    '/../public/sliderImages/image1.jpg',
-    '/../public/sliderImages/image2.jpg',
-    '/../public/sliderImages/image3.jpg',
-    '/../public/sliderImages/image4.jpg',
+    '/sliderImages/image1.jpg',
+    '/sliderImages/image2.jpg',
+    '/sliderImages/image3.jpg',
+    '/sliderImages/image4.jpg',
     // Add more image paths here as needed
   ];
   return (
