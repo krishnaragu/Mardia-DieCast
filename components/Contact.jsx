@@ -19,7 +19,7 @@ const Contact = () => {
                         <label htmlFor="message">Message</label>
                         <textarea name="message" id="message" placeholder='Enter your message' className='text-black p-2 rounded-md' cols="20" rows="5"></textarea>
                     </div>
-                    <div id='submit' className='bg-white text-black w-full text-center p-2 hover:shadow-lg hover:shadow-blue-300 rounded mt-4'>
+                    <div id='submit' className='bg-red-500 text-white w-full text-center p-2 hover:shadow-lg hover:shadow-blue-300 rounded mt-4'>
                         <input type="submit" value="Send" />
                     </div>
                 </form>

@@ -13,10 +13,14 @@ import QualityAssurance from "@/components/QualityAssurance";
 import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   const images = [
-    '/../public/sliderImages/image1.jpg',
-    '/../public/sliderImages/image2.jpg',
-    '/../public/sliderImages/image3.jpg',
-    '/../public/sliderImages/image4.jpg',
+    // '/../public/sliderImages/image1.jpg',
+    'https://drive.google.com/file/d/1L3BE3Ajg89D2X6t1nqMmJxOqrD9I5prh/view?usp=drive_link',
+    // '/../public/sliderImages/image2.jpg',
+    'https://drive.google.com/file/d/1l7t0XZu3jC8qCBsimjSGFKV38N0HAJt4/view?usp=drive_link',
+    // '/../public/sliderImages/image3.jpg',
+    'https://drive.google.com/file/d/1_OzgKC-NSiDSCacY5ft4T4sG9yPm_x97/view?usp=drive_link',
+    // '/../public/sliderImages/image4.jpg',
+    'https://drive.google.com/file/d/1KKUOfgO97om1U4XSEKVALiQ7fMiyRSiA/view?usp=drive_link'
     // Add more image paths here as needed
   ];
   return (

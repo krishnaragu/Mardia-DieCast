@@ -19,7 +19,7 @@ const ImageSlider = ({ images }) => {
     return (
         <div className="w-full h-auto lg:h-[50%] pt-16 lg:pt-16 relative" id='home'>
             {images.map((image, index) => (
-                <Image
+                <img
                     height={591}
                     width={1351}
                     key={index}

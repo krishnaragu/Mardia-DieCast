@@ -20,7 +20,7 @@ const Footer = () => {
             </div> */}
 
             <p className=' font-mono'>“ THE LIGHT WITHIN US BOWS TO THE LIGHT WITHIN YOU. ”</p>
-            <p className='text-sm'>©2017 MARDIA ENGINEERING. ALL RIGHTS RESERVED</p>
+            <p className='text-sm'>©2023 MARDIA ENGINEERING. ALL RIGHTS RESERVED</p>
         </div>
     )
 }
