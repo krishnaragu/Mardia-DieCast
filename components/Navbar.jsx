@@ -57,7 +57,8 @@ const Navbar = () => {
                         </li>
 
                         <li className='p-5' >
-                            <Link to="contact" onClick={handleNav} spy={true} smooth={true} className="text-white">Contact</Link>
+                            <Link to="contact" onClick={handleNav}
+                                spy={true} smooth={true} className="text-white">Contact</Link>
                         </li>
                     </ul>
                 </div>
