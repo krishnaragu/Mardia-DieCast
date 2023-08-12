@@ -18,8 +18,8 @@ const ProductCard = ({ product }) => {
                 <Image
                     src={product.image}
                     alt={product.name}
-                    width={product.width}
-                    height={product.height}
+                    width={1920}
+                    height={1080}
                 />
             </div>
             {expanded && (
@@ -29,11 +29,11 @@ const ProductCard = ({ product }) => {
                             src={product.image}
                             alt={product.name}
                             layout="responsive"
-                            width={product.width}
-                            height={product.height}
+                            width={1920}
+                            height={1080}
                         />
+                        <h3 className="product-name text-center">{product.name}</h3>
                     </div>
-                    <h3 className="product-name text-center">{product.name}</h3>
                 </div>
             )}
             <h3 className="product-name m-2 text-center">{product.name}</h3>

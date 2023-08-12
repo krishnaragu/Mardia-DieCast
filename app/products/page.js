@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Home = () => {
     return (
-        <div className=" w-full h-full">
+        <div className=" w-full h-full scroll-smooth">
             <div className='w-full flex p-6 m-2'>
                 <Link href="../"><Image src={'/assets/icons/left-chevron.png'} alt='back arrow' height={50} width={50} /></Link>
             </div>
