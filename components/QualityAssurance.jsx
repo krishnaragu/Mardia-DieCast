@@ -4,7 +4,7 @@ import React from 'react'
 const QualityAssurance = () => {
     return (
         <div id='quality'>
-            <div className='bg-black p-10 lg:pb-0 text-orange-500'>
+            <div className='bg-black p-10 pt-16 lg:pb-0 text-orange-500'>
                 <h1 className='text-2xl m-10  text-red-700 font-bold text-center lg:text-5xl'>QUALITY <span className='text-white'>CONTROL</span></h1>
                 <div className='lg:grid lg:grid-cols-2 lg:pt-10'>
                     <Image src={'/assets/certificate.png'} alt={'Certificate'} width={347} height={470} className='sm:w-full sm:h-fit lg:h-[75%]' />

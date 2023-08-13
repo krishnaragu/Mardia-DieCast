@@ -11,7 +11,7 @@ const Clientele = () => {
     const clients = ["Continental", "Yokohama", "Titan", "Federal Mogul", "Wipro", "BFW", "San Engineering",
         "Sundaram Clayton", "TVS Group", "Ashok Leyland", "Tata group", "Birla group", "BEML", "KCPLtd", "Honda Lt"]
     return (
-        <div id='clientele' className='bg-black text-white'>
+        <div id='clientele' className='bg-black pt-20 text-white'>
             <div className='flex flex-col items-center'>
                 <motion.h1
                     className='text-3xl m-10 text-red-700 font-bold lg:text-5xl'
@@ -32,7 +32,7 @@ const Clientele = () => {
                     >
                         {clients.map((client, index) => (
                             <motion.li
-                                className='bg-red-800 m-4 p-6 hover:shadow-xl hover:shadow-lime-400'
+                                className='bg-red-800 m-4 p-6 hover:shadow-lg hover:scale-105 hover:cursor-pointer rounded-lg hover:shadow-zinc-600'
                                 key={index}
                             >
                                 <div className='text-xl text-white lg:text-3xl text-center'>

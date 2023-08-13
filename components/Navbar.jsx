@@ -12,19 +12,19 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed z-10 w-full flex justify-between pt-3 bg-black scroll-smooth">
-            <div>
+        <nav className="fixed z-10 w-full flex justify-between  bg-gray-700 scroll-smooth">
+            <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
-                        width={150}
-                        height={150}
-                        className="w-[80%] pl-5 pb-2 sm:w-full"
-                        src="/assets/me_logo.png"
+                        width={100}
+                        height={100}
+                        className="pl-2 w-full"
+                        src="/assets/me_logo1.png"
                         alt="Logo"
                     />
                 </Link>
             </div>
-            <div className="m-2  bg-black lg:hidden" onClick={handleNav}>
+            <div className="m-2  bg-gray-700 lg:hidden" onClick={handleNav}>
                 {navOpen ? (
                     <AiOutlineClose size={35} color='#ffff' />
                 ) : (
@@ -32,7 +32,7 @@ const Navbar = () => {
                 )}
             </div>
             {navOpen && (
-                <div className="absolute  top-16 right-0 mt-2 w-full bg-black p-3 z-50 shadow-lg">
+                <div className="absolute top-11 right-0 mt-2 w-full bg-black p-3 z-50 shadow-lg">
                     <ul className="flex flex-col space-y-2 ">
                         <li className='p-5' >
                             <Link to="home" onClick={handleNav} spy={true} smooth={true} className="text-white">Home</Link>
@@ -65,29 +65,29 @@ const Navbar = () => {
             )}
             <section id="links" className='hidden lg:block'>
                 <ul className="flex">
-                    <li className='p-5 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="home" spy={true} smooth={true} className="">Home</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="about" spy={true} smooth={true} className="">About</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="clientele" spy={true} smooth={true} className="">Clientele</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="products" spy={true} smooth={true} className="">Products</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="quality" spy={true} smooth={true} className="">Quality Assurance</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="infra" spy={true} smooth={true} className="">Infrastructure</Link>
                     </li>
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="whyus" spy={true} smooth={true} className="">Why us?</Link>
                     </li>
 
-                    <li className='p-5  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="contact" spy={true} smooth={true} className="">Contact</Link>
                     </li>
                 </ul>

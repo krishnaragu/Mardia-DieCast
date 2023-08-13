@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhyChooseUs = () => {
     return (
-        <div className='bg-black flex flex-col p-5 items-center  text-white' id='whyus'>
+        <div className='bg-black pt-24 flex flex-col p-5 items-center  text-white' id='whyus'>
             <h1 className='text-2xl font-bold lg:text-5xl text-red-700'>WHY <span className=' text-white'>US?</span></h1>
             <section id='iso' className='flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 justify-center p-10'>
                 <div className='flex flex-col text-center items-center p-8' >

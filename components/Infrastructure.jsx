@@ -13,7 +13,7 @@ const Infrastructure = () => {
     return (
         <div className='bg-black' id='infra'>
             <motion.h1
-                className='text-3xl text-center p-4 text-red-700 font-bold lg:text-5xl'
+                className='text-3xl pt-24 text-center p-4 text-red-700 font-bold lg:text-5xl'
                 variants={fadeInUp}
             >
                 OUR <span className='text-white'>INFRASTUCTURE</span>

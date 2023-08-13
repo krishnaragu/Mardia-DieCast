@@ -1,9 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 const Products = () => {
     return (
-        <div className="bg-black  text-white pt-16 p-8  font-light hover: sm:p-16 text-center" id='products'>
-            <h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8">OUR <span className='text-white'>PRODUCTS</span></h1>
+        <div className="bg-black  text-white  p-8  font-light hover: sm:p-16 text-center" id='products'>
+            <h1 className="text-2xl text-red-700 font-bold pt-12 sm:text-5xl mb-8">OUR <span className='text-white'>PRODUCTS</span></h1>
             <div className="mx-auto lg:pt-5">
                 <p className=" text-orange-500 text-center sm:text-lg lg:text-5xl lg:font-bold ">
                     We manufacture more than <span className='text-white'>90%</span> of

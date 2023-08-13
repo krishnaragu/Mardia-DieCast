@@ -4,25 +4,29 @@ import React from 'react'
 const Contact = () => {
     return (
         <>
-            <div className='bg-black flex flex-col  p-4  text-white' id='contact'>
-                <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'>CONTACT <span className='text-white'>US</span></h1>
-                <form className='flex flex-col' method='post' id='contact'>
-                    <div id='detail-name' className='flex flex-col sm:flex-none sm:m-3'>
-                        <label htmlFor="name" className=' align-middle'>Name</label>
-                        <input type="text" name="name" placeholder='Enter your name' className='text-black p-2 rounded-sm' id="name" />
-                    </div>
-                    <div id='detail-email' className='flex  flex-col sm:flex-none sm:m-3'>
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" placeholder='Enter your email' className='text-black p-2 rounded-md' id="email" />
-                    </div>
-                    <div id='Your message' className='flex  flex-col sm:flex-none sm:m-3'>
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" placeholder='Enter your message' className='text-black p-2 rounded-md' cols="20" rows="5"></textarea>
-                    </div>
-                    <div id='submit' className='bg-red-500 text-white w-full text-center p-2 hover:shadow-lg hover:shadow-blue-300 rounded mt-4'>
-                        <input type="submit" value="Send" />
-                    </div>
-                </form>
+            <div className='bg-black flex flex-col  p-4 pt-16 text-white' id='contact'>
+                <div className='container m-auto sm:w-2/3 w-full'>
+                    <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'>CONTACT <span className='text-white'>US</span></h1>
+                    <form className='flex flex-col' method='post' id='contact'>
+                        <div id='detail-name' className='flex flex-col sm:flex-none sm:m-3'>
+                            <label htmlFor="name" className=' align-middle'>Name</label>
+                            <input type="text" name="name" placeholder='Enter your name' className='text-black p-2 rounded-md' id="name" />
+                        </div>
+                        <div id='detail-email' className='flex  flex-col sm:flex-none sm:m-3'>
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" placeholder='Enter your email' className='text-black p-2 rounded-md' id="email" />
+                        </div>
+                        <div id='Your message' className='flex  flex-col sm:flex-none sm:m-3'>
+                            <label htmlFor="message">Message</label>
+                            <textarea name="message" id="message" placeholder='Enter your message' className='text-black p-2 rounded-md' cols="20" rows="5"></textarea>
+                        </div>
+                        <div id='submit' className='bg-red-500 text-white w-32 m-auto text-center p-2 hover:shadow-lg hover:shadow-blue-300 rounded mt-4'>
+                            <input type="submit" value="Send" />
+                        </div>
+
+                    </form>
+                </div>
+                <br />
                 <Image src={'/assets/midban.png'} alt={'Quality Assurance'} width={1920} height={500} />
 
             </div>
