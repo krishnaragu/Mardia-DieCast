@@ -53,7 +53,7 @@ const page = () => {
                 </figure>
             </div>
             <div className='pt-5'>
-                <figure className='grid grid-cols-3 gap-10 justify-between'>
+                <figure className='grid grid-cols-3 lg:gap-10 justify-between'>
                     <p className='text-2xl p-3 align-middle text-center mt-auto mb-auto'>Dent/Depression Marks on Platen</p>
                     <Image src={"/assets/pmm/dent-depression-marks-on-platen1.jpg"} width={323} height={247} alt='dent-depression-marks-on-platen1' className='rounded-xl ml-3 hover:scale-105' />
                     <Image src={"/assets/pmm/dent-depression-marks-on-platen2.jpg"} width={289} height={162} alt='dent-depression-marks-on-platen2' className='rounded-xl ml-2 hover:scale-105' />
