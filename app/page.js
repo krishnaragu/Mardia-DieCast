@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import logo from '../public/me_logo.png';
 import About from "@/components/About";
 import Clientele from "@/components/Clientele";
 import Contact from "@/components/Contact";

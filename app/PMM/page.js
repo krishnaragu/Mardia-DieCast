@@ -3,8 +3,8 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-4"><span className=' text-red-600'>Portable Milling Machine</span> (PMM)</h1>
+        <div className="container mx-auto p-4 ">
+            <h1 className="text-3xl font-bold mb-4"><span className='text-red-600'>Portable Milling Machine</span> (PMM)</h1>
             <p className="mb-4">
                 In Pressure Die Casting machine and Plastic Injection Molding machine, there are fixed platen and moving
                 platen which over a period of time surface gets damaged and dents are formed. So, this portable milling
@@ -59,7 +59,7 @@ const page = () => {
                 </figure>
             </div>
             <div className='pt-5'>
-                <figure className='grid grid-cols-3 justify-between'>
+                <figure className='grid grid-cols-3 '>
                     <p className='text-xl p-3 align-middle'>After Surface Machining</p>
                     <Image src={"/assets/pmm/after-surface-machining1.jpg"} width={323} height={247} alt='after-surface-machining1' />
                     <Image src={"/assets/pmm/after-surface-machining2.jpg"} width={289} height={162} alt='after-surface-machining2' />
