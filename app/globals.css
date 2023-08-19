@@ -9,6 +9,9 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+.scroll-to-top {
+  @apply fixed bottom-8 right-8 bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center opacity-70 transition-opacity transform scale-100 hover:opacity-100 hover:scale-110;
+}
 /* Additional custom styles */
 .product-card {
   position: relative;
