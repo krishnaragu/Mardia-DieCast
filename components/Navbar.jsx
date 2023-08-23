@@ -16,10 +16,10 @@ const Navbar = () => {
             <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
-                        width={100}
-                        height={100}
+                        width={40}
+                        height={40}
                         className="pl-2 w-full"
-                        src="/assets/me_logo1.png"
+                        src="/assets/me-logo.png"
                         alt="Logo"
                     />
                 </Link>

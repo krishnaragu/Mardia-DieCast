@@ -70,6 +70,13 @@ const page = () => {
                         <Image src={"/assets/pmm/after-surface-machining2.jpg"} width={289} height={162} alt='after-surface-machining2' className='rounded-xl ml-2 hover:scale-105' />
                     </figure>
                 </div>
+                <div className='pt-5 mt-10'>
+                    <figure className='grid grid-cols-3 gap-10 justify-between '>
+                        <p className='text-2xl p-3 align-middle text-center mt-auto mb-auto'>Before and After Machining</p>
+                        <Image src={"/assets/pmm/before-machining1.jpg"} width={1280} height={1280} alt='before-machining' className='rounded-xl ml-2 hover:scale-105' />
+                        <Image src={"/assets/pmm/after-machining.jpg"} width={1280} height={1280} alt='after-machining' className='rounded-xl ml-2 hover:scale-105' />
+                    </figure>
+                </div>
             </div>
         </>
     );
