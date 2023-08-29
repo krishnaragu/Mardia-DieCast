@@ -42,9 +42,9 @@ export default function Home() {
   }, []);
   return (
     <div className="scroll-smooth">
-      <Navbar />
-      <ImageSlider images={images} />
       <Introduction />
+      <Navbar />
+      {/* <ImageSlider images={images} /> */}
       <About />
       <Clientele />
       <Products />
@@ -54,7 +54,7 @@ export default function Home() {
       <Contact />
       <Footer />
       {showScrollButton && (
-        <button className="scroll-to-top" onClick={scrollToTop}>
+        <button className="scroll-to-top animate-bounce" onClick={scrollToTop}>
           ↑
         </button>
       )}

@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed z-10 w-full flex justify-between  bg-gray-700 scroll-smooth">
+        <nav className="fixed lg:sticky top-0 z-10 w-full flex justify-between backdrop-filter   backdrop-blur-[50px]  bg-opacity-40  bg-gray-700  text-black scroll-smooth">
             <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
@@ -32,7 +32,7 @@ const Navbar = () => {
                 )}
             </div>
             {navOpen && (
-                <div className="absolute top-11 right-0 mt-2 w-full bg-black p-3 z-50 shadow-lg">
+                <div className="absolute top-11 right-0 mt-2 w-full bg-black backdrop-blur-3xl backdrop-filter backdrop-opacity-50 p-3 z-50 shadow-lg">
                     <ul className="flex flex-col space-y-2 ">
                         <li className='p-5' >
                             <Link to="home" onClick={handleNav} spy={true} smooth={true} className="text-white">Home</Link>

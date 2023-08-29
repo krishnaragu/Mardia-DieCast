@@ -11,7 +11,7 @@ const Infrastructure = () => {
     };
 
     return (
-        <div className='bg-black' id='infra'>
+        <div className=' bg-gradient-to-tr from-fuchsia-300 via-teal-400 to-pink-500' id='infra'>
             <motion.h1
                 className='text-3xl pt-24 text-center p-4 text-red-700 font-bold lg:text-5xl'
                 variants={fadeInUp}

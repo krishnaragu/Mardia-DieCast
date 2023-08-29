@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhyChooseUs = () => {
     return (
-        <div className='bg-black pt-24 flex flex-col p-5 items-center  text-white' id='whyus'>
+        <div className=' bg-gradient-to-r from-gray-700 to-gray-900 pt-24 flex flex-col p-5 items-center  text-white' id='whyus'>
             <h1 className='text-2xl font-bold lg:text-5xl text-red-700'>WHY <span className=' text-white'>US?</span></h1>
             <section id='iso' className='flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 justify-center p-10'>
                 <div className='flex flex-col text-center items-center p-8' >
@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/assets/why-choose-us/iso-2.png" alt='iso-2' width={100} height={100} />
-                    <div className='p-1 m-2'><span className=' text-orange-500'>Supplying</span> to over 100 Tire Plants across the globe</div>
+                    <div className='p-1 m-2'><span className=' text-orange-500'>Supplying</span> to over 100 Pressure die casting Plants across the globe</div>
                 </div>
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/assets/why-choose-us/iso-3.png" alt='iso-3' width={100} height={100} />
@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
 
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/assets/why-choose-us/iso-4.png" alt='iso-4' width={100} height={100} />
-                    <div className='p-1 m-2'>Tire <span className=' text-orange-500'>specialists</span> : We cover 90% of engineering spares of a tire industry</div>
+                    <div className='p-1 m-2'>High Pressure die casting (HPDC) <span className=' text-orange-500'>specialists</span> : We cover 90% of engineering spares of a Die casting industry</div>
                 </div>
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/assets/why-choose-us/iso-5.png" alt='iso-5' width={100} height={100} />

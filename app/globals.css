@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 body {
-  @apply bg-black text-white;
+  @apply bg-gradient-to-t from-teal-300 to-green-200 text-black;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;

@@ -2,7 +2,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-
+import { motion } from 'framer-motion';
 const ImageSlider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -17,18 +17,18 @@ const ImageSlider = ({ images }) => {
     }, []);
 
     return (
-        <div className="w-full h-auto lg:h-[50%] pt-12 lg:pt-16 relative" id='home'>
+        <motion.div className="w-fit h-fit  pt-12 lg:pt-16 relative" id='slider'>
             {images.map((image, index) => (
                 <Image
-                    height={591}
-                    width={1351}
+                    height={1080}
+                    width={1920}
                     key={index}
                     src={image}
                     alt={`Image ${index + 1}`}
                     className={` object-cover w-full h-full  ${index === currentIndex ? 'block' : 'hidden'}`}
                 />
             ))}
-        </div>
+        </motion.div>
     );
 };
 
