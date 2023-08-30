@@ -20,7 +20,7 @@ const Clientele = () => {
 
     return (
         <div id='clientele' className='relative bg-black pt-20 text-black'>
-            {/* <div
+            <div
                 className="absolute inset-0 z-0"
                 style={{
                     backgroundImage: `url('https://img.freepik.com/free-photo/close-up-metalworking-machine_176420-4718.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
@@ -28,7 +28,7 @@ const Clientele = () => {
                     backgroundPosition: 'center',
                     filter: 'blur(10px)', // Adding blur to the background image
                 }}
-            /> */}
+            />
             <div className='flex flex-col items-center relative z-10'>
                 <motion.h1
                     className='text-3xl m-10 text-red-700 font-bold lg:text-5xl'
@@ -53,7 +53,7 @@ const Clientele = () => {
                         We supply spares and products to some of the world&apos;s largest companies.
                     </motion.p>
                     <motion.div
-                        className=" h-96 ml-10 mr-10 carousel carousel-vertical rounded-box"
+                        className=" h-96 ml-10 mr-10 m-2 carousel carousel-vertical rounded-box"
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}
