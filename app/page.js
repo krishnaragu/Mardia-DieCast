@@ -12,7 +12,10 @@ import QualityAssurance from "@/components/QualityAssurance";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import React, { useState, useEffect } from 'react';
 import './globals.css'
+
+
 export default function Home() {
+
   const images = [
     '/sliderImages/image1.jpg',
     '/sliderImages/image2.jpg',
@@ -41,7 +44,7 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth font-serif">
       <Introduction />
       <Navbar />
       {/* <ImageSlider images={images} /> */}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+
 const About = () => {
     const fadeInUp = {
         hidden: { opacity: 0, y: 50 },
@@ -20,23 +21,24 @@ const About = () => {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: `url('https://img.freepik.com/free-photo/worker-operating-industrial-machine-metal-workshop_342744-268.jpg?size=626&ext=jpg')`,
+                    backgroundImage: `url('https://img.freepik.com/free-photo/close-up-metalworking-machine_176420-4718.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
+                    filter: 'blur(10px)', // Adding blur to the background image
                 }}
             />
             <motion.div
                 initial="hidden"
                 animate="visible"
                 variants={stagger}
-                className="relative  backdrop-filter backdrop-blur-3xl backdrop-opacity-50 text-white pt-24 p-8 font-light text-center"
+                className="relative backdrop-filter backdrop-blur-3xl backdrop-opacity-50 text-white pt-24 p-8 font-light text-center"
                 id="about"
             >
                 <motion.h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8" variants={fadeInUp}>
                     ABOUT <span className="text-white">US</span>
                 </motion.h1>
                 <motion.p
-                    className="text-orange-500 p-4  text-center sm:text-lg lg:text-4xl lg:font-bold"
+                    className="text-orange-600 tracking-wide p-4 bg-gradient-to-b from-red-50 rounded-xl  text-center sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
                 >
                     Mardia Group of Companies started its business five
@@ -47,10 +49,10 @@ const About = () => {
                     globe. We have a fully equipped in- house facility of
                     casting and machining to manufacture wide range of
                     spares for pressure die casting industries.
-                    We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
-                    Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
-                    toggle mechanism, shoe plates, bed plates, repair and
-                    new of fixed platen, moving platen and end platens .
+                    <span className='text-'> We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
+                        Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
+                        toggle mechanism, shoe plates, bed plates, repair and
+                        new of fixed platen, moving platen and end platens .</span>
                     <motion.p
                         className="text-white  p-2 sm:text-lg lg:text-3xl lg:font-bold"
                         variants={fadeInUp}>
@@ -58,20 +60,20 @@ const About = () => {
                     </motion.p>
                 </motion.p>
                 <motion.p
-                    className="text-orange-500  pb-20 text-center sm:text-lg lg:text-4xl lg:font-bold"
+                    className="text-orange-500  pb-20 text-center tracking-wide sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
                 >
                     To know more about Portable milling machine, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
                 </motion.p>
                 <div className="mx-auto lg:grid lg:grid-cols-2 lg:pt-5">
                     <motion.p
-                        className="text-orange-500 p-1 pb-5 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
+                        className="text-orange-500 bg-gradient-to-b tracking-wide from-slate-300 rounded-2xl p-1 pb-5 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
                         variants={fadeInUp}
                     >
                         With a rich experience of over
                         <span className="text-white"> 52 years</span> in the field.
                         A name synonymous with high quality & precision products
-                        that cater to <span className="text-white"> Engineering Industry Spare Parts</span>
+                        that cater to <span className="text-red-800"> Engineering Industry Spare Parts</span>
                     </motion.p>
                     <motion.div
                         className="flex justify-center"

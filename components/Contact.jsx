@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <>
-            <div className=' bg-gradient-to-r from-orange-500 via-orange-200 to-blue-200 flex flex-col  p-4 pt-16 text-white' id='contact'>
+            <div className=' bg-gradient-to-r from-gray-500 via-slate-800 to-gray-400 flex flex-col  p-4 pt-16 text-white' id='contact'>
                 <div className='container m-auto sm:w-2/3 w-full'>
                     <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'>CONTACT <span className='text-white'>US</span></h1>
                     <form className='flex flex-col' method='post' id='contact'>
