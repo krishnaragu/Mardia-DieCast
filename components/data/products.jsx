@@ -1,13 +1,13 @@
 const products = [
     {
         id: 1,
-        name: '48 Inch Cm Guide',
-        image: '/assets/products/48inchcm-guide.jpg',
+        name: 'SS Strip',
+        image: '/assets/products/ss-strip.jpg',
     },
     {
         id: 2,
-        name: '560 Ton Split Nut',
-        image: '/assets/products/560-ton-split-nut.jpg',
+        name: 'T-Block',
+        image: '/assets/products/t-block.jpg',
     },
     {
         id: 3,
@@ -224,11 +224,12 @@ const products = [
         name: 'Split Nut 630 Ton',
         image: '/assets/products/split-nut-630ton.jpg',
     },
-    // {
-    //     id: 46,
-    //     name: 'SS Strip',
-    //     image: '/assets/products/ss-strip.jpg',
-    // },
+    {
+        id: 46,
+        name: '48 Inch Cm Guide',
+        image: '/assets/products/48inchcm-guide.jpg',
+    },
+
     {
         id: 47,
         name: 'Steel Graphite Bush',
@@ -239,11 +240,11 @@ const products = [
         name: 'Stud SS',
         image: '/assets/products/stud-ss.jpg',
     },
-    // {
-    //     id: 49,
-    //     name: 'T-Block',
-    //     image: '/assets/products/t-block.jpg',
-    // },
+    {
+        id: 49,
+        name: '560 Ton Split Nut',
+        image: '/assets/products/560-ton-split-nut.jpg',
+    },
     {
         id: 50,
         name: 'Tie Bar And Nut',
