@@ -19,7 +19,7 @@ const Clientele = () => {
     ];
 
     return (
-        <div id='clientele' className='relative bg-black pt-20 text-black'>
+        <div id='clientele' className='relative pt-20 text-black'>
             {/* <div
                 className="absolute inset-0 z-0"
                 style={{

@@ -38,7 +38,7 @@ const About = () => {
                     ABOUT <span className="text-white">US</span>
                 </motion.h1>
                 <motion.p
-                    className="text-orange-500 p-4  text-center sm:text-lg lg:text-4xl lg:font-bold"
+                    className="text-orange-600 p-4 bg-gradient-to-b from-red-50 rounded-xl  text-center sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
                 >
                     Mardia Group of Companies started its business five
@@ -49,10 +49,10 @@ const About = () => {
                     globe. We have a fully equipped in- house facility of
                     casting and machining to manufacture wide range of
                     spares for pressure die casting industries.
-                    We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
-                    Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
-                    toggle mechanism, shoe plates, bed plates, repair and
-                    new of fixed platen, moving platen and end platens .
+                    <span className='text-'> We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
+                        Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
+                        toggle mechanism, shoe plates, bed plates, repair and
+                        new of fixed platen, moving platen and end platens .</span>
                     <motion.p
                         className="text-white  p-2 sm:text-lg lg:text-3xl lg:font-bold"
                         variants={fadeInUp}>
@@ -67,13 +67,13 @@ const About = () => {
                 </motion.p>
                 <div className="mx-auto lg:grid lg:grid-cols-2 lg:pt-5">
                     <motion.p
-                        className="text-orange-500 p-1 pb-5 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
+                        className="text-orange-500 bg-gradient-to-b from-slate-300 rounded-2xl p-1 pb-5 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
                         variants={fadeInUp}
                     >
                         With a rich experience of over
                         <span className="text-white"> 52 years</span> in the field.
                         A name synonymous with high quality & precision products
-                        that cater to <span className="text-white"> Engineering Industry Spare Parts</span>
+                        that cater to <span className="text-red-800"> Engineering Industry Spare Parts</span>
                     </motion.p>
                     <motion.div
                         className="flex justify-center"

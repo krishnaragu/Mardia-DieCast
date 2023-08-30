@@ -28,7 +28,7 @@ const Infrastructure = () => {
                     OUR <span className='text-white'>INFRASTUCTURE</span>
                 </motion.h1>
                 <motion.p
-                    className='p-10 text-center text-2xl lg:text-3xl lg:pl-40 lg:pr-40 font-bold text-orange-400'
+                    className='p-10 text-center text-2xl lg:text-5xl lg:pl-40 lg:pr-40 font-bold text-orange-400'
                     variants={fadeInUp}
                     initial="hidden"
                     animate="visible"

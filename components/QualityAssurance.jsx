@@ -32,7 +32,7 @@ const QualityAssurance = () => {
                     height={470}
                     className='sm:w-full sm:h-fit lg:h-[75%]'
                 />
-                <p className='text-center text-white font-extrabold text-2xl p-2 m-2 lg:text-4xl lg:pt-44 lg:p-10'>
+                <p className='text-center text-orange-400 font-extrabold text-2xl p-2 m-2 lg:text-4xl lg:pt-44 lg:p-10'>
                     With regular quality check audits and a self-sufficient quality control team, at
                     Mardia Engineering, the quality of our products and service is maintained as per
                     the best international standards
