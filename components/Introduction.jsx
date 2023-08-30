@@ -27,13 +27,13 @@ const Introduction = () => {
                     variants={fadeIn}
                     className="lg:text-7xl text-2xl p-10 lg:p-0"
                 >
-                    <span className="text-red-700 font-serif">
+                    <span className="text-red-700 p-0 tracking-widest font-serif">
                         MARDIA <span className="text-white  font-mono">ENGINEERING</span>
                     </span>
                 </motion.div>
                 <motion.p
                     variants={fadeIn}
-                    className="text-orange-500 p-10 text-center sm:text-lg lg:text-4xl lg:font-bold lg:pt-5 lg:p-5"
+                    className="text-orange-500 tracking-wide p-2 text-center sm:text-lg lg:text-4xl lg:font-bold lg:pt-5 lg:p-5"
                 >
                     Your One-Stop Destination for all Machinery Mechanical Spare Parts
                 </motion.p>

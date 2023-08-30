@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
     };
 
     return (
-        <div className="product-card flex flex-col items-center">
+        <div className="product-card  bg-gradient-to-t from-slate-300 to-blue-50 flex flex-col items-center">
             <div
                 className="cursor-pointer"
                 onClick={toggleExpand}

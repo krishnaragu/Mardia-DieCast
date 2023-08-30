@@ -14,15 +14,15 @@ const ProductCatalog = ({ products }) => {
 
     return (
         <div
-            className="product-catalog-bg"
-            style={{
-                backgroundImage: `url('https://img.freepik.com/free-photo/man-is-working-with-giant-drill-busy-metal-factory_613910-17166.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
+            className="product-catalog-bg "
+        // style={{
+        //     backgroundImage: `url('https://img.freepik.com/free-photo/man-is-working-with-giant-drill-busy-metal-factory_613910-17166.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
+        //     backgroundSize: 'cover',
+        //     backgroundPosition: 'center',
+        // }}
         >
             <motion.div
-                className="product-catalog grid p-2 lg:p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+                className="product-catalog text-black font-extrabold grid p-2 lg:p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
                 initial="hidden"
                 animate="visible"
                 variants={stagger}

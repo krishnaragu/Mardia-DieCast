@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     return (
         <div className=' bg-gradient-to-r from-gray-700 to-gray-900 pt-24 flex flex-col p-5 items-center  text-white' id='whyus'>
             <h1 className='text-2xl font-bold lg:text-5xl text-red-700 '>WHY <span className=' text-white'>US?</span></h1>
-            <p className='text-xl lg:text-4xl text-orange-400 p-5 mt-10'>{`"Quality is not a choice we make. It's a mandate by which we create, build & deliver!"`}</p>
+            <p className='text-2xl text-center lg:text-4xl text-orange-400 p-5 mt-10'>{`"Quality is not a choice we make. It's a mandate by which we create, build & deliver!"`}</p>
             <section id='iso' className='flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center p-10'>
                 <div className='flex flex-col text-center items-center p-8' >
                     <Image src="/assets/why-choose-us/iso-3.png" alt='iso3' width={100} height={100} />
