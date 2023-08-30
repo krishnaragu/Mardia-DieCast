@@ -1,8 +1,7 @@
-'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { Link } from 'react-scroll'; // Import the Link component
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -12,19 +11,19 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed lg:sticky top-0 z-10 w-full flex justify-between backdrop-filter   backdrop-blur-[50px]  bg-opacity-40  bg-gray-700  text-black scroll-smooth">
+        <nav className="fixed font-mono lg:sticky top-0 z-10 w-full flex justify-between bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
             <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
                         width={40}
                         height={40}
-                        className="pl-2 w-full"
+                        className="pl-2 w-full cursor-pointer"
                         src="/assets/me-logo.png"
                         alt="Logo"
                     />
                 </Link>
             </div>
-            <div className="m-2  bg-gray-700 lg:hidden" onClick={handleNav}>
+            <div className="m-5 lg:hidden" onClick={handleNav}>
                 {navOpen ? (
                     <AiOutlineClose size={35} color='#ffff' />
                 ) : (
@@ -32,33 +31,34 @@ const Navbar = () => {
                 )}
             </div>
             {navOpen && (
-                <div className="absolute top-11 right-0 mt-2 w-full bg-black backdrop-blur-3xl backdrop-filter backdrop-opacity-50 p-3 z-50 shadow-lg">
+                <div className="absolute top-16 right-0 mt-2 w-full bg-gradient-to-b from-slate-200 to-gray-400 text-black backdrop-filter backdrop-opacity-50 p-3 z-50 shadow-lg">
+
+
                     <ul className="flex flex-col space-y-2 ">
                         <li className='p-5' >
-                            <Link to="home" onClick={handleNav} spy={true} smooth={true} className="text-white">Home</Link>
+                            <Link to="home" onClick={handleNav} spy={true} smooth={true} className="text-black">Home</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="about" onClick={handleNav} spy={true} smooth={true} className="text-white">About</Link>
+                            <Link to="about" onClick={handleNav} spy={true} smooth={true} className="text-black">About</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="clientele" onClick={handleNav} spy={true} smooth={true} className="text-white">Clientele</Link>
+                            <Link to="clientele" onClick={handleNav} spy={true} smooth={true} className="text-black">Clientele</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="products" onClick={handleNav} spy={true} smooth={true} className="text-white">Products</Link>
+                            <Link to="products" onClick={handleNav} spy={true} smooth={true} className="text-black">Products</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="quality" onClick={handleNav} spy={true} smooth={true} className="text-white">Quality Assurance</Link>
+                            <Link to="quality" onClick={handleNav} spy={true} smooth={true} className="text-black">Quality Assurance</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="infra" onClick={handleNav} spy={true} smooth={true} className="text-white">Infrastructure</Link>
+                            <Link to="infra" onClick={handleNav} spy={true} smooth={true} className="text-black">Infrastructure</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="whyus" onClick={handleNav} spy={true} smooth={true} className="text-white">Why us?</Link>
+                            <Link to="whyus" onClick={handleNav} spy={true} smooth={true} className="text-black">Why us?</Link>
                         </li>
-
                         <li className='p-5' >
                             <Link to="contact" onClick={handleNav}
-                                spy={true} smooth={true} className="text-white">Contact</Link>
+                                spy={true} smooth={true} className="text-black">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </section>
-        </nav>
+        </nav >
     );
 };
 

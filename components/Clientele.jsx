@@ -1,58 +1,84 @@
-'use client'
-import Image from 'next/image'
 import React from 'react';
 import { motion } from 'framer-motion';
-import ImageSlider from './ImageSlider';
+import Image from 'next/image';
 
 const Clientele = () => {
     const fadeInUp = {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0 },
     };
-    // const clients = ["/assets/clients/Chamundi logo.png", "/assets/clients/craftsman-logo.webp", "/assets/clients/Endurance logo.png", "/assets/clients/Rico logo.jpg", "/assets/clients/rockman logo.png", "/assets/clients/scl logo.jpeg", "/assets/clients/uno minda.png"]
-    const clients = ["/clients/Chamundi logo.png", "/clients/craftsman-logo.webp", "/clients/Endurance logo.png", "/clients/Rico logo.jpg", "/clients/rockman logo.png", "/clients/scl logo.jpeg", "/clients/uno minda.png"]
-    return (
-        <div id='clientele' className=' bg-black pt-20 text-black'>
 
-            <div className='flex flex-col items-center'>
+    const clients = [
+        "/clients/Chamundi logo.png",
+        "/clients/craftsman-logo.webp",
+        "/clients/Endurance logo.png",
+        "/clients/Rico logo.jpg",
+        "/clients/rockman logo.png",
+        "/clients/scl logo.jpeg",
+        "/clients/uno minda.png"
+    ];
+
+    return (
+        <div id='clientele' className='relative bg-black pt-20 text-black'>
+            {/* <div
+                className="absolute inset-0 z-0"
+                style={{
+                    backgroundImage: `url('https://img.freepik.com/free-photo/close-up-metalworking-machine_176420-4718.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    filter: 'blur(10px)', // Adding blur to the background image
+                }}
+            /> */}
+            <div className='flex flex-col items-center relative z-10'>
                 <motion.h1
                     className='text-3xl m-10 text-red-700 font-bold lg:text-5xl'
+                    initial="hidden"
+                    animate="visible"
                     variants={fadeInUp}
                 >
                     OUR <span className='text-white'>CLIENTELE</span>
                 </motion.h1>
                 <motion.div
                     id="container"
+                    initial="hidden"
+                    animate="visible"
                     variants={fadeInUp}
                 >
-                    <p className='text-orange-400 p-5 text-center text-xl lg:text-4xl'>
-                        We supply spares and products to some of the world{"\'"}s largest companies.
-                    </p>
-                    {/* <motion.ul
-                        className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:p-10'
+                    <motion.p
+                        className='text-orange-400 p-5 text-center text-xl lg:text-4xl'
+                        initial="hidden"
+                        animate="visible"
                         variants={fadeInUp}
                     >
-                        {clients.map((client, index) => (
-                            <motion.li
-                                className='bg-black m-4 p-6 hover:shadow-lg hover:scale-105 hover:cursor-pointer rounded-lg hover:shadow-zinc-600'
-                                key={index}
-                            >
-                                <Image src={client} alt='Clientele' width={1920} height={1080} className='text-xl w-full text-white lg:text-3xl text-center'>
-                                </Image>
-                            </motion.li>
-                        ))}
-                    </motion.ul> */}
-                    {/* <ImageSlider images={clients} /> */}
-                    <motion.div className="h-96 carousel carousel-vertical rounded-box">
+                        We supply spares and products to some of the world&apos;s largest companies.
+                    </motion.p>
+                    <motion.div
+                        className=" h-96 ml-10 mr-10 carousel carousel-vertical rounded-box"
+                        initial="hidden"
+                        animate="visible"
+                        variants={fadeInUp}
+                    >
                         {clients.map((client) => (
-                            <div className="carousel-item w-fit h-full" key={client}>
+                            <motion.div
+                                className="carousel-item w-fit h-full"
+                                key={client}
+                                initial="hidden"
+                                animate="visible"
+                                variants={fadeInUp}
+                            >
                                 <Image src={client} height={1080} width={1920} alt={client} />
-                            </div>
+                            </motion.div>
                         ))}
                     </motion.div>
-                    <p className='text-orange-400 p-5 lg:p-10 text-center text-xl lg:text-4xl'>
+
+                    <motion.p
+                        className='text-orange-400 p-5 lg:p-10 text-center text-xl lg:text-4xl'
+                        initial="hidden"
+                        animate="visible"
+                        variants={fadeInUp}
+                    >
                         & many more engineering companies around the world.
-                    </p>
+                    </motion.p>
                 </motion.div>
             </div>
         </div>

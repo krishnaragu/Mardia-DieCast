@@ -1,21 +1,24 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-const page = () => {
+
+const Page = () => {
     return (
-        <>
+        <div className='bg-cover bg-center' style={{ backgroundImage: 'url("https://img.freepik.com/premium-photo/cnc-milling-hardened-steel-with-sparks-closeup-with-selective-focus-blur_636705-679.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais' }}>
             <div className='w-full flex'>
-                <Link href="../" className='p-4 w-fit'><Image src={'/assets/icons/left-chevron.png'} alt='back arrow' height={50} width={50} /></Link>
+                <Link href="../" className='p-4 w-fit'>
+                    <Image src={'/assets/icons/left-chevron.png'} alt='back arrow' height={50} width={50} />
+                </Link>
             </div>
             <div className="container mx-auto p-4">
-                <h1 className="text-6xl lg:text-8xl font-bold mb-4 text-center mt-3 "><span className='text-red-600'>Portable Milling Machine</span> (PMM)</h1>
-                <p className="mb-4 mt-5 text-3xl">
+                <h1 className="text-6xl lg:text-8xl text-white font-bold mb-4 text-center mt-3 "><span className='text-red-600'>Portable Milling Machine</span> (PMM)</h1>
+                <p className="mb-4 text-white font-extrabold mt-5 text-3xl">
                     In Pressure Die Casting machine and Plastic Injection Molding machine, there are fixed platen and moving
                     platen which over a period of time surface gets damaged and dents are formed. So, this <span className='text-red-600'>Portable Milling
                         Machine(PMM)</span>, will be fixed on the die casting machine and it will machine the platen at the client{"'"}s site.
                     Without dismantling the platen within 24 hours the job gets completed.
                 </p>
-                <ul className="list-disc pl-6 mb-8 text-3xl">
+                <ul className="list-disc text-white font-extrabold pl-6 mb-8 text-3xl">
                     <li>Machining can be done at your site.</li>
                     <li>Requires none or minimal dismantling of large equipment{"’"}s.</li>
                     <li>Eliminates the need for transport, hence saves on time and costs.</li>
@@ -27,7 +30,7 @@ const page = () => {
                     <li>We can do this job up to 1100-ton machine.</li>
                     <li>Fixing of false or sub platen can be done on site.</li>
                 </ul>
-                <figure className='flex justify-around mb-4'>
+                <figure className='flex  justify-around mb-4'>
                     <div>
                         <Image src={"/assets/pmm/prototype-machine1.jpg"} width={642} height={666} alt='prototype-machine1' className='rounded-xl hover:scale-105' />
                         <p className='text-2xl p-3 text-center '>Prototype Machine</p>
@@ -78,8 +81,8 @@ const page = () => {
                     </figure>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
-export default page;
+export default Page;
