@@ -224,11 +224,11 @@ const products = [
         name: 'Split Nut 630 Ton',
         image: '/assets/products/split-nut-630ton.jpg',
     },
-    {
-        id: 46,
-        name: 'SS Strip',
-        image: '/assets/products/ss-strip.jpg',
-    },
+    // {
+    //     id: 46,
+    //     name: 'SS Strip',
+    //     image: '/assets/products/ss-strip.jpg',
+    // },
     {
         id: 47,
         name: 'Steel Graphite Bush',
@@ -239,11 +239,11 @@ const products = [
         name: 'Stud SS',
         image: '/assets/products/stud-ss.jpg',
     },
-    {
-        id: 49,
-        name: 'T-Block',
-        image: '/assets/products/t-block.jpg',
-    },
+    // {
+    //     id: 49,
+    //     name: 'T-Block',
+    //     image: '/assets/products/t-block.jpg',
+    // },
     {
         id: 50,
         name: 'Tie Bar And Nut',
