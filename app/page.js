@@ -45,8 +45,8 @@ export default function Home() {
   }, []);
   return (
     <div className="scroll-smooth font-serif">
-      <Introduction />
       <Navbar />
+      <Introduction />
       {/* <ImageSlider images={images} /> */}
       <About />
       <Clientele />
