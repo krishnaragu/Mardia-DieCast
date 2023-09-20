@@ -44,7 +44,7 @@ const Infrastructure = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <figure className='lg:flex md:grid md:grid-cols-2 justify-between'>
+                    <figure className='lg:grid xl:flex md:grid md:grid-cols-2 justify-between'>
                         <Image src={'/assets/infra/1.jpg'} alt='pic 1' className='p-10' width={921} height={693} />
                         <Image src={'/assets/infra/5.jpg'} alt='pic 2' className='p-10 lg:w-[50%]' width={444} height={733} />
                     </figure>
