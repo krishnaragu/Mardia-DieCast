@@ -31,14 +31,14 @@ const About = () => {
                 initial="hidden"
                 animate="visible"
                 variants={stagger}
-                className="relative backdrop-filter backdrop-blur-3xl backdrop-opacity-50 text-white pt-24 p-8 font-light text-center"
+                className="relative backdrop-filter backdrop-blur-3xl backdrop-opacity-10 text-white pt-24 p-8 font-light text-center"
                 id="about"
             >
                 <motion.h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8" variants={fadeInUp}>
                     ABOUT <span className="text-white">US</span>
                 </motion.h1>
                 <motion.p
-                    className="text-orange-600 tracking-wide p-4 bg-gradient-to-b from-red-50 rounded-xl  text-center sm:text-lg lg:text-4xl lg:font-bold"
+                    className="text-orange-400 tracking-wide p-4 bg-gradient-radial from-zinc-950 rounded-3xl text-center sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
                 >
                     Mardia Group of Companies started its business five
@@ -54,20 +54,21 @@ const About = () => {
                         toggle mechanism, shoe plates, bed plates, repair and
                         new of fixed platen, moving platen and end platens .</span>
                     <motion.p
-                        className="text-white  p-2 sm:text-lg lg:text-3xl lg:font-bold"
+                        className="text-white  p-2 mt-3 sm:text-lg lg:text-3xl lg:font-bold"
                         variants={fadeInUp}>
                         90% of the M/s Zitai and M/s HMT machines, spare parts we have ready stock.
                     </motion.p>
+                    <motion.p
+                        className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
+                        variants={fadeInUp}
+                    >
+                        To know more about Portable milling machine, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
+                    </motion.p>
                 </motion.p>
-                <motion.p
-                    className="text-orange-500  pb-20 text-center tracking-wide sm:text-lg lg:text-4xl lg:font-bold"
-                    variants={fadeInUp}
-                >
-                    To know more about Portable milling machine, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
-                </motion.p>
+
                 <div className="mx-auto lg:grid lg:grid-cols-2 lg:pt-5">
                     <motion.p
-                        className="text-orange-500 bg-gradient-to-b tracking-wide from-slate-300 rounded-2xl p-1 pb-5 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
+                        className="text-orange-500 bg-gradient-radial tracking-wide from-zinc-950 rounded-2xl p-1 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
                         variants={fadeInUp}
                     >
                         With a rich experience of over
