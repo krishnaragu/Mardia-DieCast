@@ -1,14 +1,14 @@
 const products = [
-    {
-        id: 1,
-        name: 'SS Strip',
-        image: '/assets/products/ss-strip.jpg',
-    },
-    {
-        id: 2,
-        name: 'T-Block',
-        image: '/assets/products/t-block.jpg',
-    },
+    // {
+    //     id: 1,
+    //     name: 'SS Strip',
+    //     image: '/assets/products/ss-strip.jpg',
+    // },
+    // {
+    //     id: 2,
+    //     name: 'T-Block',
+    //     image: '/assets/products/t-block.jpg',
+    // },
     {
         id: 3,
         name: '660 Ton Multiplicator Piston',

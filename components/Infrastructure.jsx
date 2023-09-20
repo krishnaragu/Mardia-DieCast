@@ -10,7 +10,6 @@ const Infrastructure = () => {
 
     return (
         <div
-            className='bg-gradient-to-tr from-fuchsia-300 via-teal-400 to-pink-500'
             id='infra'
             style={{
                 backgroundImage: `url('https://img.freepik.com/free-photo/tools-materials-sanitary-works_93675-131724.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais')`,
@@ -28,7 +27,7 @@ const Infrastructure = () => {
                     OUR <span className='text-white'>INFRASTUCTURE</span>
                 </motion.h1>
                 <motion.p
-                    className='p-10 text-center text-2xl lg:text-5xl lg:pl-40 lg:pr-40 font-bold text-orange-400'
+                    className='p-10 text-center text-2xl lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
                     variants={fadeInUp}
                     initial="hidden"
                     animate="visible"

@@ -35,8 +35,7 @@ const Introduction = () => {
                     variants={fadeIn}
                     className="text-orange-500 tracking-wide p-2 text-center sm:text-lg lg:text-4xl lg:font-bold lg:pt-5 lg:p-5"
                 >
-                    Your One-Stop Destination for all Machinery Mechanical Spare Parts
-                </motion.p>
+                    Your One-Stop Destination For All Pressure Die Casting Machinery.                </motion.p>
             </motion.div>
         </>
     );
