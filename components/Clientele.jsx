@@ -39,13 +39,13 @@ const Clientele = () => {
                 </motion.h1>
                 <motion.div
                     id="container"
-                    className='grid grid-cols-2 gap-10'
+                    className='md:grid grid-cols-2 gap-10'
                     initial="hidden"
                     animate="visible"
                     variants={fadeInUp}
                 >
                     <motion.div
-                        className="h-80 w-full ml-10 mr-10 m-2 carousel-vertical rounded-box"
+                        className="h-80 md:w-full   ml-10 mr-10 m-2 carousel-vertical rounded-box"
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}
@@ -69,7 +69,7 @@ const Clientele = () => {
                         animate="visible"
                         variants={fadeInUp}
                     >
-                        We supply spares and products to some of the world&apos;s largest companies.& many more engineering companies around the world.
+                        We supply spares and products to some of the world&apos;s largest companies, and many more engineering companies around the world.
                     </motion.p>
                     <motion.p
                         className='text-orange-400 p-5 lg:p-10 text-center text-xl lg:text-4xl'
