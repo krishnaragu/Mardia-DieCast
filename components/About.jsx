@@ -48,7 +48,7 @@ const About = () => {
                     industry and Hydraulic Cylinders in India and across the
                     globe. We have a fully equipped in- house facility of
                     casting and machining to manufacture wide range of
-                    spares for pressure die casting industries.
+                    spare parts for pressure die casting industries.
                     <span className='text-'> We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
                         Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
                         toggle mechanism, shoe plates, bed plates, repair and
@@ -62,17 +62,27 @@ const About = () => {
                         className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
                         variants={fadeInUp}
                     >
-                        To know more about Portable milling machine, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
+                        To know more about On-Site Machining of the Platten, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
                     </motion.p>
-                </motion.p>
 
+                </motion.p>
+                <figure className='flex justify-center '>
+                    <Image src={"/assets/pmm/before-machining1.jpg"} width={300} height={300} alt='before-machining' className='rounded-xl ml-2 w-[35%] lg:w-fit hover:scale-105' />
+                    <Image src={"/assets/pmm/after-machining.jpg"} width={300} height={300} alt='after-machining' className='rounded-xl ml-2 w-[35%] lg:w-fit hover:scale-105' />
+                </figure>
+                {/* <motion.p
+                    className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
+                    variants={fadeInUp}
+                >
+                    To know more about On-Site Machining of the Platten, please <a href="/PMM" className=' text-blue-600 underline'>click here</a>
+                </motion.p> */}
                 <div className="mx-auto lg:grid lg:grid-cols-2 lg:pt-5">
                     <motion.p
                         className="text-orange-500 bg-gradient-radial tracking-wide from-zinc-950 rounded-2xl p-1 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
                         variants={fadeInUp}
                     >
                         With a rich experience of over
-                        <span className="text-white"> 52 years</span> in the field.
+                        <span className="text-white"> 5 years</span> in the field.
                         A name synonymous with high quality & precision products
                         that cater to <span className="text-red-800"> Engineering Industry Spare Parts</span>
                     </motion.p>

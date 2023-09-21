@@ -8,13 +8,15 @@ const Clientele = () => {
     };
 
     const clients = [
-        "/clients/Chamundi logo.png",
+        // "/clients/Chamundi logo.png",
+        "/clients/toyota logo.jpeg",
         "/clients/craftsman-logo.webp",
+        "/clients/honda logo.jpeg",
         "/clients/Endurance logo.png",
         "/clients/Rico logo.jpg",
+        "/clients/uno minda.png",
         "/clients/rockman logo.png",
         "/clients/scl logo.jpeg",
-        "/clients/uno minda.png"
     ];
 
     return (

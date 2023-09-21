@@ -21,21 +21,21 @@ const Introduction = () => {
                 initial="hidden"
                 animate="visible"
                 variants={fadeIn}
-                className="absolute right-10 top-20   lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold  text-center"
+                className="absolute lg:left-36 top-16   lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold  text-center"
             >
                 <motion.div
                     variants={fadeIn}
-                    className="lg:text-7xl text-2xl p-10 lg:p-0"
+                    className="lg:text-7xl text-2xl p-5 lg:p-0"
                 >
-                    <span className="text-red-700 p-0 tracking-widest font-serif">
+                    <span className="text-red-700 p-2 tracking-widest font-serif">
                         MARDIA <span className="text-white  font-mono">ENGINEERING</span>
                     </span>
                 </motion.div>
                 <motion.p
                     variants={fadeIn}
-                    className="text-orange-500 tracking-wide p-2 text-center sm:text-lg lg:text-4xl lg:font-bold lg:pt-5 lg:p-5"
+                    className="text-orange-500 lg:tracking-wide text-center text-xs sm:text-lg lg:text-4xl lg:font-bold lg:pt-5 lg:p-5"
                 >
-                    Your One-Stop Destination For All Pressure Die Casting Machinery.                </motion.p>
+                    Your One-Stop Destination. <p className='pl-2 lg:pl-0'>For All Pressure Die Casting Machinery Spare Parts.</p>                 </motion.p>
             </motion.div>
         </>
     );

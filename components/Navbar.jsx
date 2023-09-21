@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className=" font-mono lg:sticky top-0  z-50 w-full flex justify-between bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
+        <nav className="fixed font-mono lg:sticky top-0  z-50 w-full flex justify-between bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
             <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
