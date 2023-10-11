@@ -36,7 +36,7 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="scroll-smooth font-serif">
+    <div className="scroll-smooth">
       <Navbar />
       <Introduction />
       <About />

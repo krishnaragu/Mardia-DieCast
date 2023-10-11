@@ -27,11 +27,11 @@ const Introduction = () => {
                 initial="hidden"
                 animate="visible"
                 variants={fadeIn}
-                className="absolute lg:left-36 top-16 lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold text-center"
+                className="absolute lg:right-48 top-16 lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold text-center"
             >
                 {/* Company Name */}
                 <motion.div variants={fadeIn} className="lg:text-7xl text-2xl p-5 lg:p-0">
-                    <span className="text-white p-2 tracking-widest">
+                    <span className="text-white font-bold p-2 tracking-widest">
                         MARDIA ENGINEERING
                     </span>
                 </motion.div>
