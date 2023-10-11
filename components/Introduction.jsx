@@ -27,8 +27,8 @@ const Introduction = () => {
                     variants={fadeIn}
                     className="lg:text-7xl text-2xl p-5 lg:p-0"
                 >
-                    <span className="text-red-700 p-2 tracking-widest font-serif">
-                        MARDIA <span className="text-white  font-mono">ENGINEERING</span>
+                    <span className="text-red-700 p-2 tracking-widest">
+                        MARDIA <span className="text-white">ENGINEERING</span>
                     </span>
                 </motion.div>
                 <motion.p

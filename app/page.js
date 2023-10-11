@@ -3,7 +3,6 @@ import About from "@/components/About";
 import Clientele from "@/components/Clientele";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import ImageSlider from "@/components/ImageSlider";
 import Infrastructure from "@/components/Infrastructure";
 import Introduction from "@/components/Introduction";
 import Navbar from "@/components/Navbar";
@@ -16,13 +15,6 @@ import './globals.css'
 
 export default function Home() {
 
-  const images = [
-    '/sliderImages/image1.jpg',
-    '/sliderImages/image2.jpg',
-    '/sliderImages/image3.jpg',
-    '/sliderImages/image4.jpg',
-    // Add more image paths here as needed
-  ];
   const [showScrollButton, setShowScrollButton] = useState(false);
   const scrollToTop = () => {
     window.scrollTo({
@@ -47,7 +39,6 @@ export default function Home() {
     <div className="scroll-smooth font-serif">
       <Navbar />
       <Introduction />
-      {/* <ImageSlider images={images} /> */}
       <About />
       <Clientele />
       <Products />
