@@ -35,8 +35,8 @@ const Infrastructure = () => {
                     Fully Equipped Foundry for Casting
                     CNC / VMC Machinery Set Up
                     In-house CMM Machine
-                    Fully equipped in-House Testing
-                    Area with latest Instruments.
+                    Fully equipped In-House Testing
+                    Area with the latest Instruments.
                 </motion.p>
                 <motion.div
                     className='p-10'
