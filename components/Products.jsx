@@ -21,7 +21,7 @@ const Products = () => {
             animate="visible"
         >
             <h1 className="text-2xl text-red-700 font-bold pt-12 sm:text-5xl mb-8">
-                OUR <span className='text-white'>PRODUCTS</span>
+                <span className='text-white'>OUR PRODUCTS</span>
             </h1>
             <div className="mx-auto lg:pt-5">
                 <p className="text-orange-500 lg:p-10 text-center sm:text-lg lg:text-6xl lg:font-bold">

@@ -22,7 +22,7 @@ const About = () => {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                    backgroundImage: `url('https://img.freepik.com/free-photo/close-up-metalworking-machine_176420-4718.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
+                    backgroundImage: `url('https://img.freepik.com/free-photo/abstract-metallic-background-close-up_23-2148859936.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     filter: 'blur(10px)', // Adding blur to the background image
@@ -38,7 +38,7 @@ const About = () => {
                 id="about"
             >
                 <motion.h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8" variants={fadeInUp}>
-                    ABOUT <span className="text-white">US</span>
+                    <span className="text-white">ABOUT US</span>
                 </motion.h1>
                 <motion.p
                     className="text-orange-400 tracking-wide p-4 bg-gradient-radial from-zinc-950 rounded-3xl text-center sm:text-lg lg:text-4xl lg:font-bold"
@@ -67,7 +67,7 @@ const About = () => {
                         className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
                         variants={fadeInUp}
                     >
-                        To know more about On-Site Machining of the Platten, please <a href="/PMM" className='text-blue-600 underline'>click here</a>
+                        We have ready stock spare parts of M/s Zitai and M/s HMT machines <a href="/PMM" className='text-blue-600 underline'>click here</a>
                     </motion.p>
                 </motion.p>
 

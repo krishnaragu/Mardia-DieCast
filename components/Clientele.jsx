@@ -29,7 +29,7 @@ const Clientele = () => {
                     animate="visible"
                     variants={fadeInUp}
                 >
-                    OUR <span className='text-white'>CLIENTELE</span>
+                    <span className='text-white'>OUR CLIENTELE</span>
                 </motion.h1>
                 <motion.div
                     id="container"
@@ -39,14 +39,14 @@ const Clientele = () => {
                     variants={fadeInUp}
                 >
                     <motion.div
-                        className="h-80 md:w-full ml-10 mr-10 m-2 carousel-vertical rounded-box"
+                        className="h-80 md:w-full  ml-10 mr-10 m-2 carousel-vertical rounded-box"
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}
                     >
                         {clients.map((client) => (
                             <motion.div
-                                className="carousel-item w-full h-full"
+                                className="carousel-item w-fit sm:w-full h-full"
                                 key={client}
                                 initial="hidden"
                                 animate="visible"

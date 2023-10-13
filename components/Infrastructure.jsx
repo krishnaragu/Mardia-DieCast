@@ -24,7 +24,7 @@ const Infrastructure = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    OUR <span className='text-white'>INFRASTUCTURE</span>
+                    <span className='text-white'>OUR INFRASTUCTURE</span>
                 </motion.h1>
                 <motion.p
                     className='p-10 text-center text-2xl lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'

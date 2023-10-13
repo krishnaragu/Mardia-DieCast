@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     return (
         <div className='bg-gradient-to-r from-gray-700 to-gray-900 pt-24 flex flex-col p-5 items-center text-white' id='whyus'>
             <h1 className='text-2xl font-bold lg:text-5xl text-red-700'>
-                WHY <span className='text-white'>US?</span>
+                <span className='text-white'>WHY US?</span>
             </h1>
             <p className='text-2xl text-center lg:text-3xl text-orange-400 p-5 mt-10'>
                 {"\"Quality is not a choice we make. It's a mandate by which we create, build & deliver!\""}

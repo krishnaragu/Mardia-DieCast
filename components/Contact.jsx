@@ -6,7 +6,7 @@ const Contact = () => {
         <>
             <div className='bg-gradient-to-r from-gray-500 via-slate-800 to-gray-400 flex flex-col p-4 pt-16 text-white' id='contact'>
                 <div className='container m-auto sm:w-2/3 w-full'>
-                    <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'>CONTACT <span className='text-white'>US</span></h1>
+                    <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'> <span className='text-white'>CONTACT US</span></h1>
                     <form className='flex flex-col' method='post' id='contact'>
                         <div id='detail-name' className='flex flex-col sm:flex-none sm:m-3'>
                             <label htmlFor="name" className='align-middle'>Name</label>

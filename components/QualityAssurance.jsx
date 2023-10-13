@@ -17,7 +17,7 @@ const QualityAssurance = () => {
             animate="visible"
         >
             <h1 className='text-2xl m-10 text-red-700 font-bold text-center lg:text-5xl'>
-                QUALITY <span className='text-white'>CONTROL</span>
+                <span className='text-white'>QUALITY CONTROL</span>
             </h1>
             <div className='lg:grid lg:grid-cols-2 lg:pt-10 '>
                 <Image
