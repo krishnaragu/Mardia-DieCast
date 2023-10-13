@@ -74,7 +74,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className={`p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl ${currentPage === '/products' ? 'highlighted' : ''}`}>
-                        <Link href="/products" passHref>
+                        <Link href="/product" passHref>
                             <span>Products</span>
                         </Link>
                     </li>
