@@ -11,7 +11,7 @@ const Products = () => {
         <motion.div
             className="bg-gradient-to-t from-cyan-500 to-blue-500 text-white p-8 font-light  text-center relative"
             style={{
-                backgroundImage: `url('https://img.freepik.com/free-photo/close-up-various-pieces-iron-heating-inside-forge-furnace-burning-fire-with-steel-preparation-metal-processing_7502-9480.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais')`,
+                backgroundImage: `url('https://img.freepik.com/premium-photo/forge-workshop-table-smithy-manual-production-worker-bends-metal-rod-wrought-iron_572828-6299.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
@@ -29,7 +29,7 @@ const Products = () => {
                         mechanical spare parts required by any plant.</span> Thousands of custom-made
                     products like cylinders, bushes, screws, segments, etc.
                 </p>
-                <p className="text-red-500 sm:text-lg lg:text-4xl lg:font-bold lg:pt-10">
+                <p className="text-orange-500 sm:text-lg lg:text-4xl lg:font-bold lg:pt-10">
                     For More Details on our Products,{' '}
                     <a href="/products" className='text-gray-400 hover:text-blue-500 underline'>
                         click here
