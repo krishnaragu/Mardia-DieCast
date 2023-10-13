@@ -4,7 +4,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <>
-            <div className='bg-gradient-to-r from-gray-500 via-slate-800 to-gray-400 flex flex-col p-4 pt-16 text-white' id='contact'>
+            <div className='flex flex-col p-4 pt-16 text-white' id='contact'>
                 <div className='container m-auto sm:w-2/3 w-full'>
                     <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'> <span className='text-white'>CONTACT US</span></h1>
                     <form className='flex flex-col' method='post' id='contact'>
@@ -31,7 +31,7 @@ const Contact = () => {
             <div id="google-maps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.860855670388!2d77.552493!3d12.990058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7513b43261668ff!2sMardia+Engineering!5e0!3m2!1sen!2sin!4v1499517519837" className='w-full h-auto border-0'></iframe>
             </div>
-            <div className='bg-black flex flex-col sm:grid sm:grid-cols-3 p-4 -4 items-center text-white'>
+            <div className=' flex flex-col sm:grid sm:grid-cols-3 p-4 -4 items-center text-white'>
                 <div id="address" className='flex flex-col pt-4 sm:pt-24 lg:pt-16 text-center items-center'>
                     <figure className='bg-white border  rounded-full'>
                         <Image src="/assets/icons/earth-globe.png" alt='earth' width={50} height={50} />

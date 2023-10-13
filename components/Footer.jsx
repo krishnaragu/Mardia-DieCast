@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='flex flex-col items-center text-center p-2 bg-black text-white'>
+        <div className='flex flex-col items-center text-center p-2  text-white'>
             <figure className='w-fit h-auto rounded-full m-1 p-1'>
                 <Image src="/assets/me-logo.png" alt='footer' width={50} height={50} />
             </figure>

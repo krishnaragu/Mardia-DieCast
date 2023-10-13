@@ -9,12 +9,12 @@ const Products = () => {
 
     return (
         <motion.div
-            className="bg-gradient-to-t from-cyan-500 to-blue-500 text-white p-8 font-light  text-center relative"
-            style={{
-                backgroundImage: `url('https://img.freepik.com/free-photo/close-up-various-pieces-iron-heating-inside-forge-furnace-burning-fire-with-steel-preparation-metal-processing_7502-9480.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
+            className=" text-white p-8 font-light  text-center relative"
+            // style={{
+            //     backgroundImage: `url('https://img.freepik.com/free-photo/close-up-various-pieces-iron-heating-inside-forge-furnace-burning-fire-with-steel-preparation-metal-processing_7502-9480.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais')`,
+            //     backgroundSize: 'cover',
+            //     backgroundPosition: 'center',
+            // }}
             id='products'
             variants={slideInVariants}
             initial="hidden"
