@@ -19,7 +19,7 @@ const Navbar = () => {
     }, [router.pathname]);
 
     return (
-        <nav className=" lg:sticky md:flex md:justify-between top-0 z-50 w-full bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
+        <nav className="sticky md:flex md:justify-between top-0 z-50 w-full bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
             <div className='p-2'>
                 <Link href="/" className='flex md:flex-none md:justify-normal justify-center' passHref>
                     <Image

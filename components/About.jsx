@@ -19,23 +19,12 @@ const About = () => {
 
     return (
         <div className="relative">
-            {/* Background Image */}
-            <div
-                className="absolute inset-0 z-0 "
-            // style={{
-            //     backgroundImage: `url('https://img.freepik.com/free-photo/abstract-metallic-background-close-up_23-2148859936.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
-            //     backgroundSize: 'cover',
-            //     backgroundPosition: 'center',
-            //     filter: 'blur(10px)', // Adding blur to the background image
-            // }}
-            />
-
             {/* About Content */}
             <motion.div
                 initial="hidden"
                 animate="visible"
                 variants={stagger}
-                className="relative backdrop-filter backdrop-blur-3xl backdrop-opacity-10 text-white pt-24 p-8 font-light text-center"
+                className=" backdrop-filter backdrop-blur-3xl backdrop-opacity-10 text-white pt-24 p-8 font-light text-center"
             // id="about"
             >
                 <motion.h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8" variants={fadeInUp}>
