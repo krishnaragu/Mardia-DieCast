@@ -1,10 +1,18 @@
+'use client'
 import Image from 'next/image';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
+    const slideInVariants = {
+        hidden: { x: '-100%' },
+        visible: { x: 0 },
+    };
+
     return (
         <>
-            <div className='flex flex-col p-4 pt-16 text-white' id='contact'>
+            <motion.div variants={slideInVariants} initial="hidden"
+                animate="visible" className='flex flex-col p-4 pt-16 text-white' id='contact'>
                 <div className='container m-auto sm:w-2/3 w-full'>
                     <h1 className='text-2xl font-bold m-3 text-center lg:text-5xl text-red-700'> <span className='text-white'>CONTACT US</span></h1>
                     <form className='flex flex-col' method='post' id='contact'>
@@ -27,7 +35,7 @@ const Contact = () => {
                 </div>
                 <br />
                 <Image src={'/assets/midban.png'} alt={'Quality Assurance'} width={1920} height={500} />
-            </div>
+            </motion.div>
             <div id="google-maps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.860855670388!2d77.552493!3d12.990058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7513b43261668ff!2sMardia+Engineering!5e0!3m2!1sen!2sin!4v1499517519837" className='w-full h-auto border-0'></iframe>
             </div>

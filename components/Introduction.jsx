@@ -19,7 +19,7 @@ const Introduction = () => {
                 height={333}
                 width={500}
                 id="home"
-                className='w-full h-[25%] -z-10'
+                className='w-full bg-cover h-full -z-10'
             />
 
             {/* Introduction Content */}
@@ -27,7 +27,7 @@ const Introduction = () => {
                 initial="hidden"
                 animate="visible"
                 variants={fadeIn}
-                className="absolute  top-24 left-10 right-10 lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold text-center"
+                className="absolute  top-60 left-10 right-10 lg:top-80 backdrop-filter backdrop-blur-3xl backdrop-opacity-50 rounded-2xl lg:pt-28 lg:p-8 font-bold text-center"
             >
                 {/* Company Name */}
                 <motion.div variants={fadeIn} className="lg:text-8xl text-2xl p-5 lg:p-0">

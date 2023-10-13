@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -35,14 +36,14 @@ const About = () => {
                 animate="visible"
                 variants={stagger}
                 className="relative backdrop-filter backdrop-blur-3xl backdrop-opacity-10 text-white pt-24 p-8 font-light text-center"
-                id="about"
+            // id="about"
             >
                 <motion.h1 className="text-2xl text-red-700 font-bold sm:text-5xl mb-8" variants={fadeInUp}>
                     <span className="text-white">ABOUT US</span>
                 </motion.h1>
-                <p className='text-2xl font-serif tracking-wide text-center lg:text-3xl text-orange-400 p-5 mt-10'>
+                <motion.p variants={fadeInUp} className='text-2xl font-serif tracking-wide text-center lg:text-3xl text-orange-400 p-5 mt-10'>
                     {"\"Quality is not a choice we make. It's a mandate by which we create, build & deliver!\""}
-                </p>
+                </motion.p>
                 <motion.p
                     className="text-orange-400 tracking-wide p-4 bg-gradient-radial from-zinc-950 rounded-3xl text-center sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
@@ -75,7 +76,7 @@ const About = () => {
                 </motion.p>
 
                 {/* Before and After Machining Images */}
-                <figure className='grid grid-cols-2 gap-5 justify-center '>
+                <figure className='grid grid-cols-2 gap-5 md:flex justify-center '>
                     <div className=''>
                         <Image src={"/assets/pmm/before-machining1.jpg"} width={300} height={300} alt='before-machining' className='rounded-xl ml-2 w-fit hover:scale-105' />
                         <p className='text-xl md:text-3xl p-5'>Before Machining</p>
@@ -105,7 +106,7 @@ const About = () => {
                     </motion.div>
                 </div>
             </motion.div>
-            <hr />
+
         </div>
     );
 };

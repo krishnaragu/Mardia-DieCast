@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -29,12 +30,7 @@ const Products = () => {
                         mechanical spare parts required by any plant.</span> Thousands of custom-made
                     products like cylinders, bushes, screws, segments, etc.
                 </p>
-                <p className="text-red-500 sm:text-lg lg:text-4xl lg:font-bold lg:pt-10">
-                    For More Details on our Products,{' '}
-                    <a href="/products" className='text-gray-400 hover:text-blue-500 underline'>
-                        click here
-                    </a>
-                </p>
+
             </div>
         </motion.div>
     );

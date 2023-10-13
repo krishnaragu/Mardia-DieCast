@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -21,25 +22,33 @@ const Clientele = () => {
     ];
 
     return (
-        <div id='clientele' className='relative pt-20 text-black'>
-            <div className='flex flex-col items-center relative z-10'>
+        <div id='clientele' className='relative pt-10 text-black'>
+            <div className='flex flex-col justify-center items-center'>
                 <motion.h1
-                    className='text-3xl m-10 text-red-700 font-bold lg:text-5xl'
+                    className='text-3xl text-red-700 font-bold lg:text-5xl'
                     initial="hidden"
                     animate="visible"
                     variants={fadeInUp}
                 >
                     <span className='text-white'>OUR CLIENTELE</span>
                 </motion.h1>
+                <motion.p
+                    className='text-orange-400 p-10  text-center text-xl lg:text-4xl'
+                    initial="hidden"
+                    animate="visible"
+                    variants={fadeInUp}
+                >
+                    We supply spares and products to some of the world&apos;s largest companies, and many more engineering companies around the world.
+                </motion.p>
                 <motion.div
                     id="container"
-                    className='md:grid grid-cols-2 gap-10'
+                    className='md:pl-10 pb-10 md:pr-20'
                     initial="hidden"
                     animate="visible"
                     variants={fadeInUp}
                 >
                     <motion.div
-                        className="h-80 md:w-full  ml-10 mr-10 m-2 carousel-vertical rounded-box"
+                        className="h-[400px] md:w-full  ml-10 mr-10 m-2 carousel-vertical rounded-box"
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}
@@ -56,14 +65,7 @@ const Clientele = () => {
                             </motion.div>
                         ))}
                     </motion.div>
-                    <motion.p
-                        className='text-orange-400 p-5 pt-20 text-center text-xl lg:text-4xl'
-                        initial="hidden"
-                        animate="visible"
-                        variants={fadeInUp}
-                    >
-                        We supply spares and products to some of the world&apos;s largest companies, and many more engineering companies around the world.
-                    </motion.p>
+
                 </motion.div>
             </div>
         </div>
