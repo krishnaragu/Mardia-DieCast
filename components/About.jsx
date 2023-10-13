@@ -75,9 +75,9 @@ const About = () => {
                 </motion.p>
 
                 {/* Before and After Machining Images */}
-                <figure className='grid grid-cols-2 gap-5 justify-center '>
+                <figure className='grid grid-cols-2 gap-5 md:flex justify-center '>
                     <div className=''>
-                        <Image src={"/assets/pmm/before-machining1.jpg"} width={300} height={300} alt='before-machining' className='rounded-xl ml-2 w-fit hover:scale-105' />
+                        <Image src={"/assets/pmm/before-machining1.jpg"} width={300} height={300} alt='before-machining' className='rounded-xl ml-2 w-fit  hover:scale-105' />
                         <p className='text-xl md:text-3xl p-5'>Before Machining</p>
                     </div>
                     <div>
