@@ -21,7 +21,7 @@ const Clientele = () => {
     ];
 
     return (
-        <div id='clientele' className='relative pt-20 pb-40 text-black'>
+        <div id='clientele' className='relative p-5 md:pt-20 md:pb-40 text-black'>
             <div className='flex flex-col items-center relative z-10'>
                 <motion.h1
                     className='text-3xl m-10 text-red-700 font-bold lg:text-5xl'

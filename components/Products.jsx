@@ -9,7 +9,7 @@ const Products = () => {
 
     return (
         <motion.div
-            className="bg-gradient-to-t from-cyan-500 to-blue-500 text-white p-8 font-light  text-center relative"
+            className=" text-white p-8 font-light  text-center relative"
             style={{
                 backgroundImage: `url('https://img.freepik.com/premium-photo/forge-workshop-table-smithy-manual-production-worker-bends-metal-rod-wrought-iron_572828-6299.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
                 backgroundSize: 'cover',
@@ -24,7 +24,7 @@ const Products = () => {
                 <span className='text-white'>OUR PRODUCTS</span>
             </h1>
             <div className="mx-auto lg:pt-5">
-                <p className="text-orange-500 lg:p-10 text-center sm:text-lg lg:text-6xl lg:font-bold">
+                <p className="text-orange-500 lg:p-10 bg-gradient-radial from-zinc-950 text-center sm:text-lg lg:text-6xl lg:font-bold">
                     We manufacture more than <span className='text-white'>90% of
                         mechanical spare parts required by any plant.</span> Thousands of custom-made
                     products like cylinders, bushes, screws, segments, etc.
