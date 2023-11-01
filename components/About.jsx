@@ -61,11 +61,10 @@ const About = () => {
                         new of fixed platen, moving platen, and end platens.
                     </span>
                     <motion.p
-                        className="text-white p-2 mt-3 sm:text-lg lg:text-3xl lg:font-bold"
+                        className=" p-2 mt-3 sm:text-lg lg:text-3xl lg:font-bold"
                         variants={fadeInUp}
                     >
-                        90% of the M/s Zitai and M/s HMT machines, spare parts we have ready stock.
-                    </motion.p>
+                        We have ready stock spare parts of M/s Zitai and M/s HMT machines                    </motion.p>
                     <motion.p
                         className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
                         variants={fadeInUp}
@@ -78,11 +77,11 @@ const About = () => {
                 <figure className='grid grid-cols-2 gap-5 md:flex justify-center '>
                     <div className=''>
                         <Image src={"/assets/pmm/before-machining1.jpg"} width={300} height={300} alt='before-machining' className='rounded-xl ml-2 w-fit  hover:scale-105' />
-                        <p className='text-xl md:text-3xl p-5'>Before Machining</p>
+                        <p className='text-xl md:text-3xl p-5 text-orange-500'>Before Machining</p>
                     </div>
                     <div>
                         <Image src={"/assets/pmm/after-machining.jpg"} width={300} height={300} alt='after-machining' className='rounded-xl ml-2 w-fit hover:scale-105' />
-                        <p className='text-xl md:text-3xl p-5'>After Machining</p>
+                        <p className='text-xl md:text-3xl p-5 text-orange-500'>After Machining</p>
                     </div>
                 </figure>
 
@@ -93,7 +92,7 @@ const About = () => {
                         variants={fadeInUp}
                     >
                         With a rich experience of over
-                        <span className="text-white"> 5 years</span> in the field.
+                        <span className=""> 5 years</span> in the field.
                         A name synonymous with high quality & precision products
                         that cater to Engineering Industry Spare Parts
                     </motion.p>
