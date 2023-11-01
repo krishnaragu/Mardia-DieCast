@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'], weight: '400', display: 'swap' })
+const inter = Open_Sans({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 export const metadata = {
   title: 'Mardiapdc',
