@@ -26,18 +26,19 @@ const Infrastructure = () => {
                 >
                     <span className='text-white'>OUR INFRASTUCTURE</span>
                 </motion.h1>
-                <motion.p
-                    className='p-10 text-center text-2xl lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
+                <motion.ol
+                    className='p-10 text-2xl list-disc lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
                     variants={fadeInUp}
                     initial="hidden"
                     animate="visible"
                 >
-                    Fully Equipped Foundry for Casting
-                    CNC / VMC Machinery Set Up
-                    In-house CMM Machine
-                    Fully equipped In-House Testing
-                    Area with the latest Instruments.
-                </motion.p>
+                    <li className='p-1'>Fully Equipped Foundry for Casting
+                        CNC / VMC Machinery</li>
+                    <li className='p-1'>In-house Set Up CMM Machine</li>
+                    <li className='p-1'>Fully equipped In-House Testing
+                        Area with the latest Instruments.</li>
+
+                </motion.ol>
                 <motion.div
                     className='p-10'
                     variants={fadeInUp}

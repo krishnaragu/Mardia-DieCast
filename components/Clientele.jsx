@@ -57,7 +57,7 @@ const Clientele = () => {
                         ))}
                     </motion.div>
                     <motion.p
-                        className='text-orange-400 p-5 pt-20 text-center text-xl lg:text-4xl'
+                        className='text-orange-400 p-5 pt-20 text-left text-xl lg:text-4xl'
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}

@@ -44,7 +44,7 @@ const About = () => {
                     {"\"Quality is not a choice we make! It's a mandate by which we create, build & deliver.\""}
                 </motion.p>
                 <motion.p
-                    className="text-orange-400 tracking-wide p-4 bg-gradient-radial from-zinc-950 rounded-3xl text-center sm:text-lg lg:text-4xl lg:font-bold"
+                    className="text-orange-400 tracking-wide p-4 bg-gradient-radial from-zinc-950 rounded-3xl text-justify sm:text-lg lg:text-4xl lg:font-bold"
                     variants={fadeInUp}
                 >
                     Mardia Group of Companies started its business five
@@ -55,11 +55,10 @@ const About = () => {
                     globe. We have a fully equipped in- house facility of
                     casting and machining to manufacture a wide range of
                     spare parts for pressure die casting industries.
-                    <span className='text-'> We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
-                        Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
-                        toggle mechanism, shoe plates, bed plates, repair and
-                        new of fixed platen, moving platen, and end platens.
-                    </span>
+                    We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
+                    Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
+                    toggle mechanism, shoe plates, bed plates, repair and
+                    new of fixed platen, moving platen, and end platens.
                     <motion.p
                         className=" p-2 mt-3 sm:text-lg lg:text-3xl lg:font-bold"
                         variants={fadeInUp}
@@ -88,7 +87,7 @@ const About = () => {
                 {/* Additional Information */}
                 <div className="mx-auto lg:grid lg:grid-cols-2 lg:pt-5">
                     <motion.p
-                        className="text-orange-500 bg-gradient-radial tracking-wide from-zinc-950 rounded-2xl p-1 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
+                        className="text-orange-500 bg-gradient-radial tracking from-zinc-950 rounded-2xl p-1 sm:text-lg lg:text-4xl lg:font-bold lg:pt-24"
                         variants={fadeInUp}
                     >
                         With a rich experience of over
