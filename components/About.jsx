@@ -52,11 +52,11 @@ const About = () => {
                     it has established as one of the leading manufacturers of
                     spare parts in Pressure Die Casting
                     industry and Hydraulic Cylinders in India and across the
-                    globe. We have a fully equipped in- house facility of
+                    globe. We have a fully equipped facility of
                     casting and machining to manufacture a wide range of
                     spare parts for pressure die casting industries.
                     We specialize in Self Lubricating Bushes, Tie Bars and Nuts,
-                    Toggle Pin, Extruder screw, Bronze Bushes, shot sleeve,
+                    Toggle Pin, Bronze Bushes, shot sleeve,
                     toggle mechanism, shoe plates, bed plates, repair and
                     new of fixed platen, moving platen, and end platens.
                     <motion.p
