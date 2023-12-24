@@ -32,11 +32,11 @@ const ProductCard = ({ product }) => {
                             width={1920}
                             height={1080}
                         />
-                        <h3 className="product-name text-xl text-center">{product.name}</h3>
+                        <h3 className="product-name text-xl text-center capitalize">{product.name}</h3>
                     </div>
                 </div>
             )}
-            <h3 className="product-name m-2 text-center">{product.name}</h3>
+            <h3 className="product-name m-2 text-center  uppercase">{product.name}</h3>
         </div>
     );
 };
