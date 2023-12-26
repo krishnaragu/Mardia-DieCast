@@ -72,17 +72,17 @@ const Infrastructure = () => {
                         </figure>
                     </figure>
                     <div className='lg:flex justify-between items-center'>
-                        <figure className='lg:flex flex-col justify-between items-center'>
-                            <div className='md:w-[80%] p-5'>
+                        <figure className='lg:grid grid-cols-2 justify-between items-center'>
+                            <div className=' p-5'>
                                 <Image src={'/assets/infra/6.png'} alt='pic 3' className='rounded-xl ' width={577} height={433} />
                             </div>
-                            <figure className='md:w-[80%] p-5'>
+                            <figure className=' p-5'>
                                 <Image src={'/assets/infra/8-1.png'} alt='pic 5' className='rounded-xl' width={577} height={433} />
                             </figure>
                         </figure>
-                        <div className='md:w-[40%] p-5'>
+                        {/* <div className='md:w-[40%] p-5'>
                             <Image src={'/assets/infra/7.jpg'} alt='pic 4' className='rounded-xl' width={864} height={1152} />
-                        </div>
+                        </div> */}
                     </div>
 
                 </motion.div>
