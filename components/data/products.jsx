@@ -48,7 +48,7 @@ const products = [
     },
     // 11 n 12 together
     {
-        id: 11,
+        id: 0,
         name: 'FRONT NUT',
         image: `${BASE_URL}PAGE 2/FRONT NUT.jpg`
     },
