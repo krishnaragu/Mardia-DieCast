@@ -210,18 +210,18 @@ const products = [
     {
         id: 49,
         name: '560 TON SPLIT NUT',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT 1.jpg`
+        image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT.jpg`
     },
-    {
-        id: 50,
-        name: '560 TON SPLIT NUT BACK',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT BACK.jpg`
-    },
-    {
-        id: 51,
-        name: '560 TON SPLIT NUT FRONT',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT FRONT.jpg`
-    },
+    // {
+    //     id: 50,
+    //     name: '560 TON SPLIT NUT BACK',
+    //     image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT BACK.jpg`
+    // },
+    // {
+    //     id: 51,
+    //     name: '560 TON SPLIT NUT FRONT',
+    //     image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT FRONT.jpg`
+    // },
     // 52-57 together
     {
         id: 52,

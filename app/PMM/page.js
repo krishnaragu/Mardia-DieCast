@@ -18,12 +18,12 @@ const Page = () => {
                         Machine(PMM)</span>, will be fixed on the die casting machine and it will machine the platen at the client{"'"}s site.
                     Without dismantling the platen within 24 hours the job gets completed.
                 </p>
-                <ul className="list-disc list-in mt-10 leading-10 text-black rounded-xl p-10 font-extrabold text-2xl lg:text-4xl">
+                <ul className="list-disc list-in mt-10 leading-10 text-black rounded-xl p-10 font-extrabold text-2xl lg:text-3xl">
                     <li>Machining can be done at your site.</li>
                     <li>Requires none or minimal dismantling of large equipment{"’"}s.</li>
                     <li>Eliminates the need for transport, hence saves on time and costs.</li>
                     <li>Overall time and cost reduced, without compromising on quality.</li>
-                    <li>Geometrical accuracy achievable within 0.2mm parallelism.</li>
+                    <li>The Geometrical accuracy is within + or - 0.1 mm</li>
                     <li>It can remove all kinds of dents on the surface of fixed platen and moving platen.</li>
                     <li>Repair activity we can do it within 24 hours on a single platen.</li>
                     <li>T-slot repairing can be taken up, if required addition to slot{"’"}s also can be made.</li>
