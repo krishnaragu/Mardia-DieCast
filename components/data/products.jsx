@@ -2,6 +2,11 @@
 const BASE_URL = '/assets - modified - final/'
 const products = [
     {
+        id: 0,
+        name: 'FRONT NUT',
+        image: `${BASE_URL}PAGE 3/FRONT NUT.jpg`
+    },
+    {
         id: 1,
         name: 'ACCUMULATOR CYLINDER',
         image: `${BASE_URL}PAGE 1/ACCUMULATOR CYLINDER.jpg`
@@ -45,12 +50,6 @@ const products = [
         id: 9,
         name: 'EJECTOR ROD',
         image: `${BASE_URL}PAGE 2/EJECTOR ROD - P2.jpg`
-    },
-    // 11 n 12 together
-    {
-        id: 0,
-        name: 'FRONT NUT',
-        image: `${BASE_URL}PAGE 3/FRONT NUT.jpg`
     },
     {
         id: 13,
