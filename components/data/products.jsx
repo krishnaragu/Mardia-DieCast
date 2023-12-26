@@ -50,7 +50,7 @@ const products = [
     {
         id: 0,
         name: 'FRONT NUT',
-        image: `${BASE_URL}PAGE 2/FRONT NUT.jpg`
+        image: `${BASE_URL}PAGE 3/FRONT NUT.jpg`
     },
     {
         id: 13,
