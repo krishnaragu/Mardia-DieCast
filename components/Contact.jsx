@@ -38,7 +38,7 @@ const Contact = () => {
                     </figure>
                     <h1 className=''>Visit Us</h1>
                     <div>
-                        <a href='http://www.mardiaindia.com/'>http://www.mardiaindia.com</a>
+                        <a href='http://www.mardiaindia.com/'>http://www.mardiaengg.com</a>
                         <p className=''>Mardia Engineering, # 19/1, KSSIDC Industrial Estate, Rajajinagar, Bangalore- 560044.</p>
                         <p className='p-2'>Phone: +91-80-23509638 / 39</p>
                     </div>

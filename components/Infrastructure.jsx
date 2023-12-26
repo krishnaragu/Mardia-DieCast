@@ -60,6 +60,31 @@ const Infrastructure = () => {
                             <Image src={'/assets/infra/2.jpg'} alt='pic 5' className='p-10' width={327} height={537} />
                         </figure>
                     </figure>
+                    <figure className='grid lg:grid-cols-3 gap-7 p-6 justify-center items-center'>
+                        <figure className=''>
+                            <Image src={'/assets/infra/9.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/10.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/11.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                    </figure>
+                    <div className='lg:flex justify-between items-center'>
+                        <figure className='lg:flex flex-col justify-between items-center'>
+                            <div className='md:w-[80%] p-5'>
+                                <Image src={'/assets/infra/6.png'} alt='pic 3' className='rounded-xl ' width={577} height={433} />
+                            </div>
+                            <figure className='md:w-[80%] p-5'>
+                                <Image src={'/assets/infra/8-1.png'} alt='pic 5' className='rounded-xl' width={577} height={433} />
+                            </figure>
+                        </figure>
+                        <div className='md:w-[40%] p-5'>
+                            <Image src={'/assets/infra/7.jpg'} alt='pic 4' className='rounded-xl' width={864} height={1152} />
+                        </div>
+                    </div>
+
                 </motion.div>
             </div>
         </div>

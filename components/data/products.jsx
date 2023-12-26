@@ -43,28 +43,14 @@ const products = [
     },
     {
         id: 9,
-        name: 'EJECTOR ROD - Vertical',
+        name: 'EJECTOR ROD',
         image: `${BASE_URL}PAGE 2/EJECTOR ROD - P2.jpg`
     },
-    {
-        id: 10,
-        name: 'EJECTOR RODS - Horizontal ',
-        image: `${BASE_URL}PAGE 2/EJECTOR RODS 1.jpg`
-    },
+    // 11 n 12 together
     {
         id: 11,
-        name: 'FRONT NUT - BACK ',
-        image: `${BASE_URL}PAGE 2/FRONT NUT - BACK.jpg`
-    },
-    {
-        id: 12,
-        name: 'Front nut 1 ',
-        image: `${BASE_URL}PAGE 2/Front nut 1.jpg`
-    },
-    {
-        id: 12,
-        name: 'Front nut',
-        image: `${BASE_URL}PAGE 2/Front nut.jpg`
+        name: 'FRONT NUT',
+        image: `${BASE_URL}PAGE 2/FRONT NUT.jpg`
     },
     {
         id: 13,
@@ -81,15 +67,11 @@ const products = [
         name: 'INTENSIFIER CYLINDER WITH MULTIPLICATOR PISTON',
         image: `${BASE_URL}PAGE 2/INTENSIFIER CYLINDER WITH MULTIPLICATOR PISTON.jpg`
     },
+    //16 n 17 together
     {
         id: 16,
-        name: 'PARALLEL BLOCKS BACK',
-        image: `${BASE_URL}PAGE 2/PARALLEL BLOCKS BACK.jpg`
-    },
-    {
-        id: 17,
-        name: 'PARALLEL BLOCKS FRONT',
-        image: `${BASE_URL}PAGE 2/PARALLEL BLOCKS FRONT.jpg`
+        name: 'PARALLEL BLOCKS',
+        image: `${BASE_URL}PAGE 2/PARALLEL BLOCKS.jpg`
     },
     {
         id: 18,
@@ -126,14 +108,15 @@ const products = [
         name: 'PLUNGER ROD',
         image: `${BASE_URL}PAGE 3/PLUNGER ROD.jpg`
     },
+    //remove 3rd nut
     {
         id: 25,
-        name: 'PLUNGER TIP1',
-        image: `${BASE_URL}PAGE 3/PLUNGER TIP1.jpg`
+        name: 'PLUNGER TIP',
+        image: `${BASE_URL}PAGE 3/PLUNGER TIP1.png`
     },
     {
         id: 26,
-        name: 'POLYMAIDE SHOE PLATE - P3',
+        name: 'POLYMAIDE SHOE PLATE',
         image: `${BASE_URL}PAGE 3/POLYMAIDE SHOE PLATE - P3.jpg`
     },
     {
@@ -153,7 +136,7 @@ const products = [
     },
     {
         id: 30,
-        name: 'Shot sleeve 1',
+        name: 'Shot sleeve',
         image: `${BASE_URL}PAGE 3/Shot sleeve 1.jpg`
     },
     {
@@ -161,21 +144,7 @@ const products = [
         name: 'Sub or false plate',
         image: `${BASE_URL}PAGE 3/Sub or false plate.jpg`
     },
-    {
-        id: 32,
-        name: 'SHOE PLATE PB 1',
-        image: `${BASE_URL}PAGE 3/SHOE PLATE PB 1.jpg`
-    },
-    {
-        id: 33,
-        name: 'SHOE PLATE PB 2',
-        image: `${BASE_URL}PAGE 3/SHOE PLATE PB 2.jpg`
-    },
-    {
-        id: 34,
-        name: 'SHOE PLATE PB 3',
-        image: `${BASE_URL}PAGE 3/SHOE PLATE PB 3.jpg`
-    },
+
     {
         id: 35,
         name: 'CENTRIFIGUAL CASTING',
@@ -186,15 +155,11 @@ const products = [
         name: 'SPLIT NUT FOR LK MACHINE',
         image: `${BASE_URL}PAGE 4/SPLIT NUT FOR LK MACHINE.jpg`
     },
+    //37 n 38 together
     {
         id: 37,
-        name: 'SPRAY HEAD 1',
-        image: `${BASE_URL}PAGE 4/SPRAY HEAD 1.jpg`
-    },
-    {
-        id: 38,
         name: 'SPRAY HEAD',
-        image: `${BASE_URL}PAGE 4/SPRAY HEAD.jpg`
+        image: `${BASE_URL}PAGE 4/SPRAY HEAD2.jpg`
     },
     {
         id: 39,
@@ -211,15 +176,11 @@ const products = [
         name: 'TIEBAR AND NUT',
         image: `${BASE_URL}PAGE 4/TIEBAR AND NUT.jpg`
     },
+    //42 n 43 together
     {
         id: 42,
         name: 'TOGGLE LINK',
-        image: `${BASE_URL}PAGE 4/TOGGLE LINK.jpg`
-    },
-    {
-        id: 43,
-        name: 'TOGGLE LINKS',
-        image: `${BASE_URL}PAGE 4/TOGGLE LINKS.jpg`
+        image: `${BASE_URL}PAGE 4/TOGGLE LINK 1.jpg`
     },
     {
         id: 44,
@@ -248,7 +209,7 @@ const products = [
     },
     {
         id: 49,
-        name: '560 TON SPLIT NUT 1',
+        name: '560 TON SPLIT NUT',
         image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT 1.jpg`
     },
     {
@@ -261,53 +222,27 @@ const products = [
         name: '560 TON SPLIT NUT FRONT',
         image: `${BASE_URL}PDC WEBSITE PHOTOS/560 TON SPLIT NUT FRONT.jpg`
     },
+    // 52-57 together
     {
         id: 52,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 1',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 1.jpg`
-    },
-    {
-        id: 53,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 2',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 2.jpg`
-    },
-    {
-        id: 54,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 3',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 3.jpg`
-    },
-    {
-        id: 55,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 4',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 4.jpg`
-    },
-    {
-        id: 56,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 5',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 5.jpg`
-    },
-    {
-        id: 57,
-        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 6',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE 6.jpg`
+        name: 'AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE',
+        image: `${BASE_URL}PDC WEBSITE PHOTOS/AUTOMISING BLOCK FOR 560TON & 420 TON MACHINE.jpg`
     },
     {
         id: 58,
         name: 'CORE PIN',
         image: `${BASE_URL}PDC WEBSITE PHOTOS/CORE PIN.jpg`
     },
-    {
-        id: 59,
-        name: 'TOGGLE PINS',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/TOGGLE PINS.jpg`
-    },
+    // {
+    //     id: 59,
+    //     name: 'TOGGLE PINS',
+    //     image: `${BASE_URL}PDC WEBSITE PHOTOS/TOGGLE PINS.jpg`
+    // },
     {
         id: 60,
-        name: 'SELF LUBRICATING BUSHES',
-        image: `${BASE_URL}PDC WEBSITE PHOTOS/SELF LUBRICATING BUSHES.jpg`
+        name: 'Four Axis Bronze Bush',
+        image: `${BASE_URL}PDC WEBSITE PHOTOS/Four_Axis_Bronze_Bush.png`
     },
-
-
 
 ];
 
