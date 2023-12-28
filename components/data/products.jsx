@@ -232,11 +232,11 @@ const products = [
         name: 'CORE PIN',
         image: `${BASE_URL}PDC WEBSITE PHOTOS/CORE PIN.jpg`
     },
-    // {
-    //     id: 59,
-    //     name: 'TOGGLE PINS',
-    //     image: `${BASE_URL}PDC WEBSITE PHOTOS/TOGGLE PINS.jpg`
-    // },
+    {
+        id: 59,
+        name: 'SS Strip',
+        image: `${BASE_URL}PAGE 1/SS Strip.jpg`
+    },
     {
         id: 60,
         name: 'Four Axis Bronze Bush',
