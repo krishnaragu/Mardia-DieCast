@@ -235,7 +235,7 @@ const products = [
     {
         id: 59,
         name: 'SS Strip',
-        image: `${BASE_URL}PAGE 1/SS Strip.jpg`
+        image: `${BASE_URL}PAGE 1/SS STRIP.jpg`
     },
     {
         id: 60,
