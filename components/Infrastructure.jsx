@@ -24,20 +24,21 @@ const Infrastructure = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    OUR <span className='text-white'>INFRASTUCTURE</span>
+                    <span className='text-white'>OUR INFRASTUCTURE</span>
                 </motion.h1>
-                <motion.p
-                    className='p-10 text-center text-2xl lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
+                <motion.ol
+                    className='p-10 text-2xl list-disc lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
                     variants={fadeInUp}
                     initial="hidden"
                     animate="visible"
                 >
-                    Fully Equipped Foundry for Casting
-                    CNC / VMC Machinery Set Up
-                    In-house CMM Machine
-                    Fully equipped in-House Testing
-                    Area with latest Instruments.
-                </motion.p>
+                    <li className='p-1'>Fully Equipped Foundry for Casting
+                        CNC / VMC Machinery</li>
+                    <li className='p-1'>In-house Set Up CMM Machine</li>
+                    <li className='p-1'>Fully equipped In-House Testing
+                        Area with the latest Instruments.</li>
+
+                </motion.ol>
                 <motion.div
                     className='p-10'
                     variants={fadeInUp}
@@ -59,6 +60,28 @@ const Infrastructure = () => {
                             <Image src={'/assets/infra/2.jpg'} alt='pic 5' className='p-10' width={327} height={537} />
                         </figure>
                     </figure>
+                    <figure className='grid lg:grid-cols-3 gap-7 p-6 justify-center items-center'>
+                        <figure className=''>
+                            <Image src={'/assets/infra/9.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/10.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/11.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                    </figure>
+                    <div className='lg:flex  justify-between items-center'>
+                        <figure className='lg:flex justify-between items-center'>
+                            <div className=' p-5'>
+                                <Image src={'/assets/infra/6.png'} alt='pic 3' className='rounded-xl ' width={577} height={433} />
+                            </div>
+                            <figure className='md:w-[40%] p-5'>
+                                <Image src={'/assets/infra/13.png'} alt='pic 4' className='rounded-xl' width={864} height={1152} />
+                            </figure>
+                        </figure>
+                    </div>
+
                 </motion.div>
             </div>
         </div>

@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
     };
 
     return (
-        <div className="product-card  bg-gradient-to-t from-slate-300 to-blue-50 flex flex-col items-center">
+        <div className="product-card rounded-xl bg-gradient-to-t from-slate-300 to-blue-50 flex flex-col items-center">
             <div
                 className="cursor-pointer"
                 onClick={toggleExpand}
@@ -32,11 +32,11 @@ const ProductCard = ({ product }) => {
                             width={1920}
                             height={1080}
                         />
-                        <h3 className="product-name text-xl text-center">{product.name}</h3>
+                        <h3 className="product-name text-xl text-center capitalize">{product.name}</h3>
                     </div>
                 </div>
             )}
-            <h3 className="product-name m-2 text-center">{product.name}</h3>
+            <h3 className="product-name m-2 text-center  uppercase">{product.name}</h3>
         </div>
     );
 };

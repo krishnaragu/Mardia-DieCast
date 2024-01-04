@@ -4,14 +4,16 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
+    // Define a state variable for handling the navigation menu state
     const [navOpen, setNavOpen] = useState(false);
 
+    // Toggle the navigation menu state
     const handleNav = () => {
         setNavOpen(!navOpen);
     };
 
     return (
-        <nav className="fixed font-mono lg:sticky top-0  z-50 w-full flex justify-between bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
+        <nav className="fixed lg:sticky top-0 z-50 w-full flex justify-between bg-gray-700 backdrop-filter backdrop-blur-[50px] bg-opacity-40 text-black scroll-smooth">
             <div className='p-2'>
                 <Link to="home" spy={true} smooth={true}>
                     <Image
@@ -32,9 +34,7 @@ const Navbar = () => {
             </div>
             {navOpen && (
                 <div className="absolute top-16 right-0 mt-2 w-full bg-gradient-to-b from-slate-200 to-gray-400 text-black backdrop-filter backdrop-opacity-50 p-3 z-50 shadow-lg">
-
-
-                    <ul className="flex flex-col space-y-2 ">
+                    <ul className="flex flex-col space-y-2">
                         <li className='p-5' >
                             <Link to="home" onClick={handleNav} spy={true} smooth={true} className="text-black">Home</Link>
                         </li>
@@ -57,8 +57,7 @@ const Navbar = () => {
                             <Link to="whyus" onClick={handleNav} spy={true} smooth={true} className="text-black">Why us?</Link>
                         </li>
                         <li className='p-5' >
-                            <Link to="contact" onClick={handleNav}
-                                spy={true} smooth={true} className="text-black">Contact</Link>
+                            <Link to="contact" onClick={handleNav} spy={true} smooth={true} className="text-black">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -68,26 +67,25 @@ const Navbar = () => {
                     <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="home" spy={true} smooth={true} className="">Home</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="about" spy={true} smooth={true} className="">About</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="clientele" spy={true} smooth={true} className="">Clientele</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="products" spy={true} smooth={true} className="">Products</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="quality" spy={true} smooth={true} className="">Quality Assurance</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="infra" spy={true} smooth={true} className="">Infrastructure</Link>
                     </li>
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="whyus" spy={true} smooth={true} className="">Why us?</Link>
                     </li>
-
-                    <li className='p-6  hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
+                    <li className='p-6 hover:bg-red-500 hover:cursor-pointer text-white hover:underline hover:rounded-xl'>
                         <Link to="contact" spy={true} smooth={true} className="">Contact</Link>
                     </li>
                 </ul>

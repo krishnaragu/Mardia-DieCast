@@ -11,18 +11,13 @@ const QualityAssurance = () => {
     return (
         <motion.div
             id='quality'
-            className=' p-10 pt-16 lg:pb-0 text-orange-500 relative'
-            // style={{
-            //     backgroundImage: `url('https://img.freepik.com/free-photo/bench-drill_1127-3266.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
-            //     backgroundSize: 'cover',
-            //     backgroundPosition: 'center',
-            // }}
+            className='p-10 pt-16 lg:pb-0 text-orange-500 relative'
             variants={slideInVariants}
             initial="hidden"
             animate="visible"
         >
             <h1 className='text-2xl m-10 text-red-700 font-bold text-center lg:text-5xl'>
-                QUALITY <span className='text-white'>CONTROL</span>
+                <span className='text-white'>QUALITY CONTROL</span>
             </h1>
             <div className='lg:grid lg:grid-cols-2 lg:pt-10 '>
                 <Image
@@ -30,12 +25,12 @@ const QualityAssurance = () => {
                     alt={'Certificate'}
                     width={347}
                     height={470}
-                    className='sm:w-full  sm:ml-0 sm:h-fit lg:h-[75%]'
+                    className='sm:w-full w-full  sm:ml-0 sm:h-fit lg:h-[75%]'
                 />
-                <p className='text-center lg:text-orange-400 bg-gradient-radial from-zinc-900  rounded-xl tracking-wide md:bg-none font-extrabold text-2xl p-2 m-2 lg:text-4xl lg:pt-44 lg:p-10'>
+                <p className='text-left lg:text-orange-400 bg-gradient-radial from-zinc-900 rounded-xl tracking- md:bg-none font-extrabold text-2xl p-2 m-2 lg:text-5xl  lg:pt-4 lg:p-10'>
                     With regular quality check audits and a self-sufficient quality control team, at
                     Mardia Engineering, the quality of our products and service is maintained as per
-                    the best international standards
+                    the best international standards.
                 </p>
             </div>
         </motion.div>

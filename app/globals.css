@@ -1,18 +1,13 @@
-/* Tailwind CSS utilities */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
-body {
-  @apply bg-black text-white;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-}
+
+/* Define the font family for the entire project */
+
 .scroll-to-top {
   @apply fixed bottom-8 right-8 bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center opacity-70 transition-opacity transform scale-100 hover:opacity-100 hover:scale-110;
 }
-/* Additional custom styles */
+
 .product-card {
   position: relative;
   overflow: hidden;

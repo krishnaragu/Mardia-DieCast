@@ -18,12 +18,12 @@ const Page = () => {
                         Machine(PMM)</span>, will be fixed on the die casting machine and it will machine the platen at the client{"'"}s site.
                     Without dismantling the platen within 24 hours the job gets completed.
                 </p>
-                <ul className="list-disc list-in mt-10 leading-10 text-black rounded-xl p-10 font-extrabold text-2xl lg:text-4xl">
+                <ul className="list-disc list-in mt-10 leading-10 text-black rounded-xl p-10 font-extrabold text-2xl lg:text-3xl">
                     <li>Machining can be done at your site.</li>
                     <li>Requires none or minimal dismantling of large equipment{"’"}s.</li>
                     <li>Eliminates the need for transport, hence saves on time and costs.</li>
                     <li>Overall time and cost reduced, without compromising on quality.</li>
-                    <li>Geometrical accuracy achievable within 0.2mm parallelism.</li>
+                    <li>The Geometrical accuracy is within + or - 0.1 mm</li>
                     <li>It can remove all kinds of dents on the surface of fixed platen and moving platen.</li>
                     <li>Repair activity we can do it within 24 hours on a single platen.</li>
                     <li>T-slot repairing can be taken up, if required addition to slot{"’"}s also can be made.</li>
@@ -71,6 +71,20 @@ const Page = () => {
                         <p className='text-2xl p-3 align-middle text-center mt-auto mb-auto'>After Surface Machining</p>
                         <Image src={"/assets/pmm/after-surface-machining1.jpg"} width={323} height={247} alt='after-surface-machining1' className='rounded-xl ml-3 hover:scale-105' />
                         <Image src={"/assets/pmm/after-surface-machining2.jpg"} width={289} height={162} alt='after-surface-machining2' className='rounded-xl ml-2 hover:scale-105' />
+                    </figure>
+                </div>
+                <div className='pt-5 mt-10 text-black'>
+                    <figure className='grid grid-cols-3 gap-10 justify-between '>
+                        <p className='text-2xl p-3 align-middle text-center mt-auto mb-auto'>Before Machining</p>
+                        <Image src={"/assets/pmm/Machining before A.jpg"} width={1920} height={1080} alt='before-machining' className='rounded-xl ml-2 hover:scale-105' />
+                        <Image src={"/assets/pmm/Machining before B.jpg"} width={1920} height={1080} alt='after-machining' className='rounded-xl ml-2 hover:scale-105' />
+                    </figure>
+                </div>
+                <div className='pt-5 mt-10 text-black'>
+                    <figure className='grid grid-cols-3 gap-10 justify-between '>
+                        <p className='text-2xl p-3 align-middle text-center mt-auto mb-auto'> After Machining</p>
+                        <Image src={"/assets/pmm/Before machining C.jpg"} width={1920} height={1080} alt='before-machining' className='rounded-xl ml-2 hover:scale-105' />
+                        <Image src={"/assets/pmm/AFTER MACHINING PLATEN.jpg"} width={1920} height={1080} alt='after-machining' className='rounded-xl ml-2 hover:scale-105' />
                     </figure>
                 </div>
                 <div className='pt-5 mt-10 text-black'>
