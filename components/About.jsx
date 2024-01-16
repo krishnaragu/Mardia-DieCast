@@ -68,7 +68,7 @@ const About = () => {
                         className="text-orange-500 text-center tracking-wide mt-4 sm:text-lg lg:text-2xl lg:font-bold"
                         variants={fadeInUp}
                     >
-                        We provide onsite machining of the plattens. For more details <a href="/PMM" className='hover:text-blue-600 text-white underline'>{'click here'}</a>
+                        We provide onsite machining of the plattens. <a href="/PMM" className='hover:text-blue-600 text-white underline'>{'Click here to know morehere'}</a>
                     </motion.p>
                 </motion.p>
 
