@@ -31,7 +31,7 @@ const Products = () => {
                 </p>
                 <p className="text-orange-500 sm:text-lg lg:text-4xl lg:font-bold lg:pt-10">
                     For More Details on our Products,{' '}
-                    <a href="/products" className='text-gray-400 hover:text-blue-500 underline'>
+                    <a href="/products" className='text-white hover:text-blue-500 underline'>
                         click here
                     </a>
                 </p>

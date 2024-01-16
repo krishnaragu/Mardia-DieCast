@@ -71,6 +71,17 @@ const Infrastructure = () => {
                             <Image src={'/assets/infra/11.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
                         </figure>
                     </figure>
+                    <figure className='grid lg:grid-cols-3 gap-7 p-6 justify-center items-center'>
+                        <figure className=''>
+                            <Image src={'/assets/infra/14.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/15.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/16.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                    </figure>
                     <div className='lg:flex  justify-between items-center'>
                         <figure className='lg:flex justify-between items-center'>
                             <div className=' p-5'>

@@ -160,11 +160,11 @@ const products = [
         name: 'SPRAY HEAD',
         image: `${BASE_URL}PAGE 4/SPRAY HEAD2.jpg`
     },
-    {
-        id: 39,
-        name: 'STEEL GRAPHITE BUSH',
-        image: `${BASE_URL}PAGE 4/STEEL GRAPHITE BUSH.jpg`
-    },
+    // {
+    //     id: 39,
+    //     name: 'STEEL GRAPHITE BUSH',
+    //     image: `${BASE_URL}PAGE 4/STEEL GRAPHITE BUSH.jpg`
+    // },
     {
         id: 40,
         name: 'T BLOCK',

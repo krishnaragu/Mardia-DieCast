@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
     return (
         <div className="product-card rounded-xl bg-gradient-to-t from-slate-300 to-blue-50 flex flex-col items-center">
             <div
-                className="cursor-pointer"
+                className="cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out"
                 onClick={toggleExpand}
             >
                 <Image
