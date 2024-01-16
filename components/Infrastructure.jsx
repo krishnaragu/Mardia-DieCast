@@ -45,9 +45,19 @@ const Infrastructure = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <figure className='lg:grid xl:flex md:grid md:grid-cols-2 justify-between'>
-                        <Image src={'/assets/infra/1.jpg'} alt='pic 1' className='p-10' width={921} height={693} />
-                        <Image src={'/assets/infra/5.jpg'} alt='pic 2' className='p-10 lg:w-[50%]' width={444} height={733} />
+                    <figure className='grid lg:grid-cols-2 gap-20 p-6 justify-center items-center'>
+                        <figure className=''>
+                            <Image src={'/assets/infra/14.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/10.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/15.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
+                        <figure className=''>
+                            <Image src={'/assets/infra/16.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
+                        </figure>
                     </figure>
                     <figure className='lg:flex md:grid md:grid-cols-3 justify-between'>
                         <div className=''>
@@ -58,28 +68,6 @@ const Infrastructure = () => {
                         </div>
                         <figure className='lg:pt-80'>
                             <Image src={'/assets/infra/2.jpg'} alt='pic 5' className='p-10' width={327} height={537} />
-                        </figure>
-                    </figure>
-                    <figure className='grid lg:grid-cols-3 gap-7 p-6 justify-center items-center'>
-                        <figure className=''>
-                            <Image src={'/assets/infra/9.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
-                        </figure>
-                        <figure className=''>
-                            <Image src={'/assets/infra/10.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
-                        </figure>
-                        <figure className=''>
-                            <Image src={'/assets/infra/11.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
-                        </figure>
-                    </figure>
-                    <figure className='grid lg:grid-cols-3 gap-7 p-6 justify-center items-center'>
-                        <figure className=''>
-                            <Image src={'/assets/infra/14.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
-                        </figure>
-                        <figure className=''>
-                            <Image src={'/assets/infra/15.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
-                        </figure>
-                        <figure className=''>
-                            <Image src={'/assets/infra/16.jpg'} alt='pic 5' className='rounded-xl p-1' width={1140} height={1080} />
                         </figure>
                     </figure>
                     <div className='lg:flex  justify-between items-center'>
