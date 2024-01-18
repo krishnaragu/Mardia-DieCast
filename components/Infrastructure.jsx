@@ -11,13 +11,13 @@ const Infrastructure = () => {
     return (
         <div
             id='infra'
-            style={{
-                backgroundImage: `url('https://img.freepik.com/free-photo/tools-materials-sanitary-works_93675-131724.jpg?size=626&ext=jpg&ga=GA1.2.388493421.1693318435&semt=ais')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
+        // style={{
+        //     backgroundImage: `url('https://t3.ftcdn.net/jpg/01/35/40/88/240_F_135408898_ASX7gw9WWaaYCJwQIIyKIfWKhvwWnFTo.jpg')`,
+        //     backgroundSize: 'cover',
+        //     backgroundPosition: 'center',
+        // }}
         >
-            <div className='bg-black bg-opacity-50'>
+            <div className='bg-slate-500 bg-opacity-50'>
                 <motion.h1
                     className='text-3xl pt-24 text-center p-4 text-red-700 font-bold lg:text-5xl'
                     variants={fadeInUp}
