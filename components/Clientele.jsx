@@ -15,6 +15,7 @@ const Clientele = () => {
         "/clients/Endurance logo.png",
         "/clients/Rico logo.jpg",
         "/clients/uno minda.png",
+        "/clients/sunbeam logo.jpg",
         "/clients/rockman logo.png",
         "/clients/scl logo.jpeg",
         "/clients/toyota logo.jpeg",
