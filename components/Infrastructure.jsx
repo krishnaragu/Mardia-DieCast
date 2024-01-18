@@ -32,9 +32,8 @@ const Infrastructure = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <li className='p-1'>Fully Equipped Foundry for Casting
-                        CNC / VMC Machinery</li>
-                    <li className='p-1'>In-house Set Up CMM Machine</li>
+                    <li className='p-1'>Fully Equipped Foundry for Casting.</li>
+                    <li className='p-1'>CNC / VMC Machinery Workshop.</li>
                     <li className='p-1'>Fully equipped In-House Testing
                         Area with the latest Instruments.</li>
 
