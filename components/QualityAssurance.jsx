@@ -11,13 +11,13 @@ const QualityAssurance = () => {
     return (
         <motion.div
             id='quality'
-            className='p-10 pt-16 lg:pb-0 text-orange-500 relative'
+            className='p-10 pt-16 lg:pb-0 bg-slate-500 text-orange-500 relative'
             variants={slideInVariants}
             initial="hidden"
             animate="visible"
         >
             <h1 className='text-2xl m-10 text-red-700 font-bold text-center lg:text-5xl'>
-                <span className='text-white'>QUALITY CONTROL</span>
+                <span className='dark:text-white text-black'>QUALITY CONTROL</span>
             </h1>
             <div className='lg:grid lg:grid-cols-2 lg:pt-10 '>
                 <Image
