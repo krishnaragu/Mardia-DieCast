@@ -30,7 +30,7 @@ const Clientele = () => {
                     animate="visible"
                     variants={fadeInUp}
                 >
-                    <span className='text-white'>OUR CLIENTELE</span>
+                    <span className='dark:text-white text-black'>OUR CLIENTELE</span>
                 </motion.h1>
                 <motion.div
                     id="container"
