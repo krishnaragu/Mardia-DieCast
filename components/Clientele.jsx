@@ -47,7 +47,7 @@ const Clientele = () => {
                     >
                         {clients.map((client) => (
                             <motion.div
-                                className="carousel-item w-fit sm:w-full h-full"
+                                className="carousel-item bg-black w-fit sm:w-full h-full"
                                 key={client}
                                 initial="hidden"
                                 animate="visible"
