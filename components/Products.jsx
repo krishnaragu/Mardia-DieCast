@@ -23,13 +23,13 @@ const Products = () => {
             <h1 className="text-2xl text-red-700 font-bold pt-12 sm:text-5xl mb-8">
                 <span className='text-white'>OUR PRODUCTS</span>
             </h1>
-            <div className="mx-auto lg:pt-5">
-                <p className="text-orange-500 lg:p-10 bg-gradient-radial from-zinc-600 to-zinc-900 text-center sm:text-lg lg:text-6xl lg:font-bold">
+            <div className="mx-auto lg:pt-5 bg-gradient-radial from-zinc-600 to-zinc-900 p-1">
+                <p className="text-orange-500 lg:p-10  text-center sm:text-lg lg:text-6xl lg:font-bold">
                     We manufacture more than <span className=''>90% of
                         mechanical spare parts required by any plant.</span> Thousands of custom-made
                     products like cylinders, bushes, screws, segments, etc.
                 </p>
-                <p className="text-orange-500 sm:text-lg lg:text-4xl bg-gradient-radial from-zinc-600 to-zinc-900 p-2 lg:font-bold lg:pt-10">
+                <p className="text-orange-500 sm:text-lg lg:text-4xl lg:font-bold lg:pt-10">
                     For More Details on our Products,{' '}
                     <a href="/products" className='text-white  hover:text-blue-500 underline'>
                         click here
