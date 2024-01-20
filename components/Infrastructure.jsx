@@ -20,7 +20,7 @@ const Infrastructure = () => {
                     <span className='text-white'>OUR INFRASTUCTURE</span>
                 </motion.h1>
                 <motion.ol
-                    className='p-10 text-2xl list-disc lg:text-5xl bg-gradient-radial from-zinc-950 lg:pl-40 lg:pr-40 font-bold text-orange-400'
+                    className='p-10 text-2xl list-disc lg:text-5xl bg-gradient-radial from-zinc-900 to-zinc-500 lg:pl-40 lg:pr-40 font-bold text-orange-400'
                     variants={fadeInUp}
                     initial="hidden"
                     animate="visible"

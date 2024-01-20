@@ -24,7 +24,7 @@ const Products = () => {
                 <span className='text-white'>OUR PRODUCTS</span>
             </h1>
             <div className="mx-auto lg:pt-5">
-                <p className="text-orange-500 lg:p-10 bg-gradient-radial from-zinc-950 text-center sm:text-lg lg:text-6xl lg:font-bold">
+                <p className="text-orange-500 lg:p-10 bg-gradient-radial from-zinc-600 to-zinc-900 text-center sm:text-lg lg:text-6xl lg:font-bold">
                     We manufacture more than <span className=''>90% of
                         mechanical spare parts required by any plant.</span> Thousands of custom-made
                     products like cylinders, bushes, screws, segments, etc.
