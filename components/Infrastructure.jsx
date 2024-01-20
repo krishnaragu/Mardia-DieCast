@@ -9,15 +9,8 @@ const Infrastructure = () => {
     };
 
     return (
-        <div
-            id='infra'
-        // style={{
-        //     backgroundImage: `url('https://t3.ftcdn.net/jpg/01/35/40/88/240_F_135408898_ASX7gw9WWaaYCJwQIIyKIfWKhvwWnFTo.jpg')`,
-        //     backgroundSize: 'cover',
-        //     backgroundPosition: 'center',
-        // }}
-        >
-            <div className='bg-slate-500 bg-opacity-50'>
+        <>
+            <div id='infra' className='bg-zinc-800 bg-opacity-50'>
                 <motion.h1
                     className='text-3xl pt-24 text-center p-4 text-red-700 font-bold lg:text-5xl'
                     variants={fadeInUp}
@@ -82,7 +75,7 @@ const Infrastructure = () => {
 
                 </motion.div>
             </div>
-        </div>
+        </>
     );
 };
 

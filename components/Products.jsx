@@ -9,12 +9,12 @@ const Products = () => {
 
     return (
         <motion.div
-            className=" text-white p-8 font-light  text-center relative"
-            style={{
-                backgroundImage: `url('https://img.freepik.com/premium-photo/forge-workshop-table-smithy-manual-production-worker-bends-metal-rod-wrought-iron_572828-6299.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
+            className=" text-white p-8 bg-zinc-800 bg-opacity-50 font-light  text-center relative"
+            // style={{
+            //     backgroundImage: `url('https://img.freepik.com/premium-photo/forge-workshop-table-smithy-manual-production-worker-bends-metal-rod-wrought-iron_572828-6299.jpg?size=626&ext=jpg&ga=GA1.1.388493421.1693318435&semt=ais')`,
+            //     backgroundSize: 'cover',
+            //     backgroundPosition: 'center',
+            // }}
             id='products'
             variants={slideInVariants}
             initial="hidden"
